@@ -61,6 +61,7 @@ def main():
         blob = blob.replace('</script', '<\\/script')
     out = tpl.replace('__DATA__', blob)
     (ROOT/'calendar.html').write_text(out)
+    (ROOT/'index.html').write_text(out)      # GitHub Pages serves index.html at the root
 
     # the page is one big inline script: a syntax error renders a blank page
     import shutil, subprocess, tempfile, re as _re2
@@ -99,7 +100,7 @@ def main():
 
     n_t = sum(1 + (1 if w.get('slot2') else 0) + len(w.get('also_on') or []) for w in weeks)
     launches = [w['slot1']['name'] for w in weeks if w.get('slot1')]
-    print(f"calendar.html  {len(out):,} bytes")
+    print(f"calendar.html + index.html  {len(out):,} bytes")
     print(f"  {len(weeks)} weeks, {n_t} plan rows, {len(launches)} slot-1 launches")
     print(f"  {len(events)} dated events, {sum(1 for e in events if e['pick'])} tagged as picks")
     print(f"  {weeks[0]['week_start']} -> {weeks[-1]['week_end']}")

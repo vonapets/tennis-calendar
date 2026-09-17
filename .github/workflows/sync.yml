@@ -11,6 +11,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: tennis-calendar
@@ -19,6 +21,9 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -49,6 +54,7 @@ jobs:
         run: python build.py
 
       - name: Commit if anything moved
+        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -60,3 +66,12 @@ jobs:
             git commit -m "sync $(date -u +%Y-%m-%d\ %H:%MZ) — $CH"
             git push
           fi
+
+      # Publish every run, not only when something moved: the page carries a
+      # "checked at" timestamp, so a quiet day should still refresh it.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
