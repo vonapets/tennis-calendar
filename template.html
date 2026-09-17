@@ -364,8 +364,18 @@ document.getElementById('itftbl').innerHTML=
  +'<tr><td colspan="3" style="padding-top:12px;color:var(--dim)">Biggest ITF events on Kalshi</td></tr>'
  +I.biggest.map(b=>`<tr><td style="padding-left:16px"><b>${b.name}</b></td><td class="num">${money(b.per_match)}</td><td class="num">${money(b.total)} total</td></tr>`).join('')
  +'</tbody>';
+const DS=I.per_match_distribution, SEL=I.selectability, WX=I.worked_example;
+document.getElementById('itftbl').insertAdjacentHTML('beforeend',
+ '<tr><td colspan="3" style="padding-top:12px;color:var(--dim)">Per-match distribution &mdash; the median hides the shape</td></tr>'
+ +[['ITF',DS.itf],['ATP Challenger',DS.challenger]].map(([k,x])=>
+   `<tr><td style="padding-left:16px">${k}</td><td class="num">med ${money(x.median)} \u00b7 p90 ${money(x.p90)}</td>`
+   +`<td class="num">p99 ${money(x.p99)} \u00b7 max <b>${money(x.max)}</b></td></tr>`).join('')
+ +`<tr><td style="padding-left:16px">matches over $1M</td><td class="num"><b>${DS.big_match_counts.itf.over_1m} ITF</b></td><td class="num">${DS.big_match_counts.challenger.over_1m} Challenger</td></tr>`);
 document.getElementById('itfnote').innerHTML=
- `<b>Why slot 1 is a Challenger, not an ITF event.</b> ${SP.verdict}<br><br>
+ `<b>What the median hides.</b> ${DS.headline}<br><br>
+  <b>Worked example.</b> ${WX.match} traded <b>${money(WX.volume)}</b>. ${WX.note}<br><br>
+  <b>Can you pick the tail in advance?</b> ${SEL.verdict}<br><br>
+  <b>Why slot 1 is still a Challenger.</b> ${SP.verdict}<br><br>
   <b>The regional signal is inverted.</b> ${I.region_note}<br><br>
   <b>If you do list ITF.</b> ${I.selection_rule}<br><br>
   <b>When ITF becomes the right answer.</b> ${I.when_it_wins}`;

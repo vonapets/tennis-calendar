@@ -109,7 +109,59 @@
       "Europe / other": 119701
     },
     "region_note": "The regional signal is the OPPOSITE of the Challenger one. Challengers pay in North America (~2.4x); ITF pays in Asia-Pacific, and Europe - which is 193 of 216 ITF events - is the weakest at $119,701 per match. The $257,975 ITF median is dragged down by that European tail.",
-    "selection_rule": "If you list ITF, take an Asia-Pacific M15 or M25 (Bali, Tianjin, Brisbane, Astana, Taipei, Maanshan). The best of those clear $900k-1.8M per match, above a median Challenger. A European W15 at $119k per match is not worth a slot.",
-    "when_it_wins": "ITF is the overflow tier. With only 1-2 slots a Challenger wins every week, including December when the Challenger slate drops to Challenger 50s (still ~$20M a week). ITF becomes the right answer if the slot count ever rises above two, or as the filler after the Challenger season ends on 13 December - ITF runs straight through the holidays."
+    "selection_rule": "If you list ITF, take an Asia-Pacific M15/M25 or W35 (Bali, Tianjin, Brisbane, Astana, Taipei, Maanshan, Kyoto, Sao Paulo). Tournament choice is worth 1.83x in ITF. Avoid European W15s at $119,701 a match - they are 193 of 216 ITF events and the reason the category median looks poor.",
+    "when_it_wins": "ITF is the overflow tier. With only 1-2 slots a Challenger wins every week, including December when the Challenger slate drops to Challenger 50s (still ~$20M a week). ITF becomes the right answer if the slot count ever rises above two, or as the filler after the Challenger season ends on 13 December - ITF runs straight through the holidays.",
+    "per_match_distribution": {
+      "note": "Kalshi, both sides summed, 11,571 ITF matches vs 2,463 Challenger matches over ten weeks. The median understates ITF badly - it is a fat-tailed distribution and the mean is 2.8x the median (Challenger 1.8x).",
+      "itf": {
+        "median": 121666,
+        "p75": 372159,
+        "p90": 892146,
+        "p99": 2898994,
+        "max": 11087343,
+        "mean": 339438
+      },
+      "challenger": {
+        "median": 560240,
+        "p75": 1332124,
+        "p90": 2469232,
+        "p99": 5814596,
+        "max": 9887510,
+        "mean": 992444
+      },
+      "big_match_counts": {
+        "itf": {
+          "over_1m": 995,
+          "over_2m": 297,
+          "over_5m": 18,
+          "n": 11571
+        },
+        "challenger": {
+          "over_1m": 803,
+          "over_2m": 343,
+          "over_5m": 44,
+          "n": 2463
+        }
+      },
+      "headline": "ITF produces MORE $1M+ matches in absolute terms than the whole Challenger tour (995 vs 803), because there are 4.7x as many of them. Its single biggest match ($11.1M, a W35 Sao Paulo) beats the biggest Challenger match ($9.9M). 17.3% of ITF matches clear the Challenger median, and those carry 66% of all ITF volume."
+    },
+    "selectability": {
+      "question": "The tail is real - but can you pick it in advance?",
+      "tournament_lift_itf": 1.83,
+      "tournament_lift_challenger": 1.44,
+      "top5_share_itf": 45,
+      "top5_share_challenger": 35,
+      "verdict": "Partly. Choosing a good ITF tournament lifts the median match 1.83x (Challenger only 1.44x), so tournament selection matters MORE in ITF. But a well-chosen ITF event still medians $220,754 a match against $560,211 for a Challenger match picked at random - a 2.5x gap that tournament selection does not close. And 45% of an ITF tournament's volume sits in five matches you cannot identify before the draw."
+    },
+    "worked_example": {
+      "match": "Ohashi vs Yodpetch, W35 Kyoto, Round of 32, 16 Sep 2026",
+      "ticker": "KXITFWMATCH-26SEP15OHAYOD",
+      "volume": 2851181,
+      "sides": {
+        "Yodpetch": 1669670,
+        "Ohashi": 1181511
+      },
+      "note": "A first-round match at a $35,000 event did $2.85M. That is ITF's p99, not a freak: 297 ITF matches cleared $2M in ten weeks, about 30 a week. It is also Asia-Pacific, consistent with the regional split."
+    }
   }
 }
