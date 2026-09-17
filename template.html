@@ -21,11 +21,11 @@ h2{font-size:17px;margin:34px 0 12px;padding-bottom:7px;border-bottom:1px solid 
 .card .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.6px}
 .card .v{font-size:19px;font-weight:650;margin-top:3px;font-variant-numeric:tabular-nums}
 .card .n{color:var(--dim);font-size:11px;margin-top:3px}
-.bar{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 18px}
-.bar button{background:var(--panel);color:var(--dim);border:1px solid var(--line);border-radius:999px;
+.fbar{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 18px}
+.fbar button{background:var(--panel);color:var(--dim);border:1px solid var(--line);border-radius:999px;
 padding:6px 13px;font-size:12px;cursor:pointer;font-family:inherit}
-.bar button:hover{color:var(--ink);border-color:#3d4653}
-.bar button[aria-pressed=true]{background:#1f6feb22;color:#79c0ff;border-color:#1f6feb}
+.fbar button:hover{color:var(--ink);border-color:#3d4653}
+.fbar button[aria-pressed=true]{background:#1f6feb22;color:#79c0ff;border-color:#1f6feb}
 .wk{background:var(--panel);border:1px solid var(--line);border-radius:9px;margin:0 0 14px;overflow:hidden}
 .wk>header{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;padding:11px 15px;background:var(--panel2);border-bottom:1px solid var(--line)}
 .wk>header .d{font-weight:650;font-size:14px}
@@ -103,11 +103,11 @@ white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-left:2px solid}
 .grow{display:flex;align-items:center;min-height:23px}
 .grow .lab{flex:0 0 190px;font-size:11px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:8px}
 .track{flex:1;position:relative;height:17px}
-.bar{position:absolute;height:15px;top:1px;border-radius:3px;font-size:9px;line-height:15px;
+.gbar{position:absolute;height:15px;top:1px;border-radius:3px;font-size:9px;line-height:15px;
 padding:0 5px;color:#04121f;font-weight:650;overflow:hidden;white-space:nowrap}
-.bar.ATP{background:var(--atp)}.bar.WTA{background:var(--wta)}
-.bar.ATP-CH{background:var(--ch)}.bar.WTA-125{background:#39a0a0}
-.bar.pick{outline:2px solid var(--star);outline-offset:-2px}
+.gbar.ATP{background:var(--atp)}.gbar.WTA{background:var(--wta)}
+.gbar.ATP-CH{background:var(--ch)}.gbar.WTA-125{background:#39a0a0}
+.gbar.pick{outline:2px solid var(--star);outline-offset:-2px}
 .gsec{color:var(--star);font-size:11px;text-transform:uppercase;letter-spacing:.7px;margin:14px 0 5px;font-weight:650}
 .key{display:flex;flex-wrap:wrap;gap:12px;margin:10px 0 16px;font-size:11px;color:var(--dim)}
 .key span{display:flex;align-items:center;gap:5px}
@@ -148,7 +148,7 @@ number is a regional prior, not a measurement. That applies to <b>every slot&nbs
  <span><i style="background:#39a0a0"></i>WTA 125</span>
  <span><i style="background:var(--star)"></i>a launch pick</span>
 </div>
-<div class="bar" id="filters"></div>
+<div class="fbar" id="filters"></div>
 
 <div id="v-cal">
  <p class="sub">Every tournament running each day, 21 Sep to 31 Dec 2026. Click a day for the full list.
@@ -277,7 +277,7 @@ function gantt(){
   rows.filter(r=>r.tour===tr).sort((a,b)=>a.start<b.start?-1:1).forEach(e=>{
    const l=Math.max(0,(DT(e.start)-G0)/864e5), r=Math.min(SPAN,(DT(e.end)-G0)/864e5);
    html+=`<div class="grow"><div class="lab" title="${e.name}">${e.name}</div><div class="track">
-    <div class="bar ${e.tour}${e.pick?' pick':''}" style="left:${100*l/SPAN}%;width:${Math.max(1.1,100*(r-l+1)/SPAN)}%"
+    <div class="gbar ${e.tour}${e.pick?' pick':''}" style="left:${100*l/SPAN}%;width:${Math.max(1.1,100*(r-l+1)/SPAN)}%"
      title="${e.name} · ${FMT(e.start)}–${FMT(e.end)}">${e.tier.replace('Challenger ','C')}</div></div></div>`})});
  document.getElementById('gt').innerHTML=html;
 }

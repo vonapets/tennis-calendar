@@ -49,6 +49,14 @@ def main():
         print("UNPARSEABLE DATES — fix data/schedule.json:", *bad, sep="\n  ")
         return 1
 
+    # a duplicated top-level class selector silently overrides the earlier rule
+    import re as _re, collections as _c
+    css = tpl[tpl.find('<style>'):tpl.find('</style>')]
+    dupes = {k: v for k, v in _c.Counter(_re.findall(r'^\.([A-Za-z][\w-]*)\s*\{', css, _re.M)).items() if v > 1}
+    if dupes:
+        print("DUPLICATE CSS CLASS RULES — the later one wins and will break layout:", dupes)
+        return 1
+
     n_t = sum(1 + (1 if w.get('slot2') else 0) + len(w.get('also_on') or []) for w in weeks)
     launches = [w['slot1']['name'] for w in weeks if w.get('slot1')]
     print(f"calendar.html  {len(out):,} bytes")
