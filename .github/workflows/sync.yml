@@ -1,0 +1,62 @@
+name: Sync tennis calendar
+
+# Runs on GitHub's servers so the calendar stays current whether or not the Mac
+# that built it is switched on. Tournaments get rescheduled, added and dropped;
+# sync.py diffs against the committed snapshot and the page shows what moved.
+on:
+  schedule:
+    - cron: "15 6 * * *"     # 06:15 UTC daily — before the European playing day
+    - cron: "15 18 * * *"    # 18:15 UTC daily — after it
+  workflow_dispatch:         # and a "Run workflow" button for when you can't wait
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tennis-calendar
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Node is only used by build.py to syntax-check the page's inline script
+      # before writing it — a parse error there renders a blank page.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # data/events.json and data/changes.json are committed on purpose: they
+      # are this pipeline's memory of yesterday, and the diff is computed
+      # against them. sync.py keeps the previous snapshot for any source that
+      # fails or returns a gutted pull, so one bad feed cannot empty the page.
+      - name: Pull the calendar
+        run: python sync.py
+
+      # Kalshi and Polymarket are a second, independent concern; if they are
+      # down the calendar should still publish off the last volume snapshot
+      # rather than the whole page going stale for want of a benchmark.
+      - name: Refresh traded volume
+        run: python refresh.py || echo "volume pull failed - keeping the previous snapshot"
+
+      - name: Rebuild the page
+        run: python build.py
+
+      - name: Commit if anything moved
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data calendar.html
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            CH=$(python -c "import json;c=json.load(open('data/changes.json'))['changes'];print(f\"{len(c['moved'])} moved, {len(c['added'])} added, {len(c['removed'])} dropped\")")
+            git commit -m "sync $(date -u +%Y-%m-%d\ %H:%MZ) — $CH"
+            git push
+          fi

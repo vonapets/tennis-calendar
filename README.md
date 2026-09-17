@@ -113,34 +113,85 @@ Kalshi against **$35.2M** elsewhere — and that cohort is confounded with Kalsh
 ## How it works
 
 ```
-data/schedule.json   the launch calendar   — hand-maintained (see below)
-data/context.json    venue volumes, benchmarks, caveats
-refresh.py           re-pull volumes from Kalshi and Polymarket
-build.py             schedule + context + template.html -> calendar.html
+sync.py      three upstream sources     -> data/events.json + data/changes.json
+refresh.py   Kalshi + Polymarket        -> data/context.json  (volumes only)
+build.py     events + plan + template   -> calendar.html
 ```
 
 ```bash
-python3 refresh.py     # optional: update the volume figures
-python3 build.py       # rebuild the page
+python3 sync.py            # pull the calendar, diff against yesterday
+python3 sync.py --dry-run  # parse and diff, write nothing
+python3 refresh.py         # update the volume benchmarks
+python3 build.py           # rebuild the page
 open calendar.html
 ```
 
-Stdlib only, no dependencies.
+Stdlib only, no dependencies. A GitHub Action runs the lot twice a day and
+commits when anything moves, so the page stays current without a laptop.
 
-### Why the calendar is hand-maintained
+### The three sources
 
-cricket-calendar pulls fixtures from ESPN because ESPN publishes them. **Nothing
-publishes ATP Challenger or ITF draws in a machine-readable feed.** This calendar
-was parsed once from the 2026 ATP Challenger Tour and 2026 WTA 125 calendars
-(which cite the official ATP PDF) and cross-checked against `api.wtatennis.com`
-for tour level. `refresh.py` updates **volumes only** — it will never discover a
-new tournament. Do not expect the page to self-update.
+| Source | Covers | Dates |
+|---|---|---|
+| `api.wtatennis.com` | WTA tour + WTA 125, 34 events | **exact**, official |
+| MediaWiki `2026 ATP Tour` | ATP tour, 15 events | week-granular |
+| MediaWiki `2026 ATP Challenger Tour` | 66 Challengers | week-granular |
 
-`atptour.com` is Cloudflare-blocked to scripted requests, including its own
-calendar PDF. ESPN is not usable either: its dates run 2–7 days wide because they
-include qualifying (Wimbledon as 22 Jun–13 Jul against the official 29 Jun–12 Jul),
-it carries 60 ATP events against the official 65, and its WTA feed mixes WTA 125
+**Why Wikipedia for ATP.** `atptour.com` returns HTTP 403 to scripted requests,
+including its own calendar PDF, and protennislive needs a key (401). The
+MediaWiki API is the only automatable ATP source; it cites the official ATP PDF
+and does get updated when events move, but it lags a same-day change, which is
+why every row carries its `src`.
+
+Wiki rows are **week-granular** — the table gives a Monday, so an event starting
+Sunday (the ATP Finals) reads a day late. Rows carry `precision: "week"` and the
+drift check allows one day for them.
+
+ESPN is not used at all: its dates run 2–7 days wide because they include
+qualifying (Wimbledon as 22 Jun–13 Jul against the official 29 Jun–12 Jul), it
+carries 60 ATP events against the official 65, and its WTA feed mixes WTA 125
 and ITF in with tour level.
+
+### Safety rails
+
+`sync.py` will not publish bad data. Each source fails independently: if one
+returns nothing, or returns under **60%** of what it returned last time, that
+source keeps its previous snapshot and the page says so rather than quietly
+showing less. `data/events.json` and `data/changes.json` are committed on
+purpose — they are the pipeline's memory of yesterday, and the diff is computed
+against them.
+
+`build.py` refuses to write a broken page. Three guards, each of which caught a
+real bug that had already reached a commit:
+
+- **unparseable dates** — a malformed `2026-12-2026` that rendered "Invalid Date"
+- **duplicate CSS class selectors** — Gantt bars and the filter bar both claimed
+  `.bar`, and the later rule pinned the filter bar over the page title
+- **unparseable JavaScript** (`node --check`) — a duplicate `const` that made the
+  whole page render blank
+
+It also cross-checks the hand-maintained launch plan against the synced calendar
+and prints any row whose dates have drifted, keyed on **tour + name** because
+"China Open" is both the ATP 500 and the WTA 1000 in Beijing, and Cali, Ningbo
+and Lisboa Belém each name two different events.
+
+### What the sync caught on its first run
+
+Three dates in the hand-built plan were wrong, all now corrected:
+
+| | was | is |
+|---|---|---|
+| Stockholm Open | 2–8 Nov | **9–15 Nov** — it runs between Paris and the Finals, not alongside Paris |
+| Next Gen ATP Finals | guessed 15–19 Dec | **9–15 Dec**, Reggio Calabria |
+| Chengdu, Hangzhou, Laver Cup, Davis Cup | absent | now dated rows |
+
+### ITF is still not in the feed
+
+Nothing publishes ITF draws with dates — the WTA API carries ITF but none of its
+rows reach this window, and there is no equivalent men's feed. Roughly 16 ITF
+events run in parallel every week of the year. The page says so rather than
+implying a gap that does not exist. See the ITF section for what the volume data
+says about listing them anyway.
 
 ## Known corrections
 

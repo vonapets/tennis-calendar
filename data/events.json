@@ -1,5 +1,44 @@
 [
  {
+  "name": "Chengdu Open",
+  "city": "Chengdu",
+  "country": "China",
+  "tour": "ATP",
+  "tier": "ATP 250",
+  "surface": "Hard",
+  "draw": 28,
+  "start": "2026-09-21",
+  "end": "2026-09-27",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
+ },
+ {
+  "name": "Hangzhou Open",
+  "city": "Hangzhou",
+  "country": "China",
+  "tour": "ATP",
+  "tier": "ATP 250",
+  "surface": "Hard",
+  "draw": 28,
+  "start": "2026-09-21",
+  "end": "2026-09-27",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
+ },
+ {
+  "name": "Laver Cup",
+  "city": "London",
+  "country": "United Kingdom",
+  "tour": "ATP",
+  "tier": "Team",
+  "surface": "Hard (i)",
+  "draw": null,
+  "start": "2026-09-21",
+  "end": "2026-09-27",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
+ },
+ {
   "name": "Challenger de Buenos Aires",
   "city": "Buenos Aires",
   "country": "Argentina",
@@ -9,7 +48,8 @@
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Genoa Challenger",
@@ -21,7 +61,8 @@
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Plovdiv Challenger IV",
@@ -33,7 +74,8 @@
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Saint-Tropez Open",
@@ -45,7 +87,8 @@
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Serving the Future Open",
@@ -57,7 +100,8 @@
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Korea Open",
@@ -69,6 +113,7 @@
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -81,6 +126,7 @@
   "draw": 28,
   "start": "2026-09-21",
   "end": "2026-09-27",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -93,6 +139,7 @@
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -105,6 +152,7 @@
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -117,6 +165,7 @@
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -129,7 +178,8 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Japan Open",
@@ -141,7 +191,8 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Bari Challlenger",
@@ -153,7 +204,8 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Columbus Challenger",
@@ -165,7 +217,8 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Curitiba Challenger",
@@ -177,7 +230,8 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Jingshan Tennis Open",
@@ -189,7 +243,8 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Open de Vend\u00e9e",
@@ -201,7 +256,8 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Porto Open",
@@ -213,7 +269,8 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Adana Open",
@@ -225,6 +282,7 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -237,6 +295,7 @@
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -249,6 +308,7 @@
   "draw": 96,
   "start": "2026-09-30",
   "end": "2026-10-11",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -261,7 +321,8 @@
   "draw": 96,
   "start": "2026-10-05",
   "end": "2026-10-18",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Antofagasta Challenger",
@@ -273,7 +334,8 @@
   "draw": 32,
   "start": "2026-10-05",
   "end": "2026-10-11",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Braga Open",
@@ -285,7 +347,8 @@
   "draw": 32,
   "start": "2026-10-05",
   "end": "2026-10-11",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Palermo Challenger",
@@ -297,7 +360,8 @@
   "draw": 32,
   "start": "2026-10-05",
   "end": "2026-10-11",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Villena Open",
@@ -309,7 +373,8 @@
   "draw": 32,
   "start": "2026-10-05",
   "end": "2026-10-11",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Wuning Challenger III",
@@ -321,7 +386,8 @@
   "draw": 32,
   "start": "2026-10-05",
   "end": "2026-10-11",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Samsun Open",
@@ -333,6 +399,7 @@
   "draw": 32,
   "start": "2026-10-05",
   "end": "2026-10-11",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -345,6 +412,7 @@
   "draw": 32,
   "start": "2026-10-05",
   "end": "2026-10-11",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -357,7 +425,8 @@
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Jinan Open",
@@ -369,7 +438,8 @@
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Maia Challenger",
@@ -381,7 +451,8 @@
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Olbia Challenger",
@@ -393,7 +464,8 @@
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Open de Roanne",
@@ -405,7 +477,8 @@
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Santa Cruz Challenger II",
@@ -417,7 +490,8 @@
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Wuhan Open",
@@ -429,6 +503,7 @@
   "draw": 56,
   "start": "2026-10-12",
   "end": "2026-10-18",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -441,6 +516,7 @@
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -453,6 +529,7 @@
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -465,6 +542,7 @@
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -474,10 +552,11 @@
   "tour": "ATP",
   "tier": "ATP 250",
   "surface": "Hard (i)",
-  "draw": 32,
+  "draw": 28,
   "start": "2026-10-19",
   "end": "2026-10-25",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "European Open",
@@ -486,10 +565,11 @@
   "tour": "ATP",
   "tier": "ATP 250",
   "surface": "Hard (i)",
-  "draw": 32,
+  "draw": 28,
   "start": "2026-10-19",
   "end": "2026-10-25",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Cali Open",
@@ -501,7 +581,8 @@
   "draw": 32,
   "start": "2026-10-19",
   "end": "2026-10-25",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Florence Challenger",
@@ -513,7 +594,8 @@
   "draw": 32,
   "start": "2026-10-19",
   "end": "2026-10-25",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Fort Worth Challenger",
@@ -525,7 +607,8 @@
   "draw": 32,
   "start": "2026-10-19",
   "end": "2026-10-25",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Guangzhou International Challenger",
@@ -537,7 +620,8 @@
   "draw": 32,
   "start": "2026-10-19",
   "end": "2026-10-25",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Lisboa Bel\u00e9m Open",
@@ -549,7 +633,8 @@
   "draw": 32,
   "start": "2026-10-19",
   "end": "2026-10-25",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Kinoshita Group Japan Open",
@@ -561,6 +646,7 @@
   "draw": 32,
   "start": "2026-10-19",
   "end": "2026-10-25",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -573,6 +659,7 @@
   "draw": 28,
   "start": "2026-10-19",
   "end": "2026-10-25",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -585,6 +672,7 @@
   "draw": 32,
   "start": "2026-10-19",
   "end": "2026-10-25",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -597,7 +685,8 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Vienna Open",
@@ -609,7 +698,8 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Brest Challenger",
@@ -621,7 +711,8 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Challenger Ciudad de Guayaquil",
@@ -633,7 +724,8 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Ningbo Open",
@@ -645,7 +737,8 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Seoul Open Challenger",
@@ -657,7 +750,8 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Sioux Falls Challenger",
@@ -669,7 +763,8 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Guangzhou Open",
@@ -681,6 +776,7 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -693,6 +789,7 @@
   "draw": 28,
   "start": "2026-10-26",
   "end": "2026-11-01",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -705,6 +802,7 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -717,6 +815,7 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -729,6 +828,7 @@
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -741,19 +841,8 @@
   "draw": 56,
   "start": "2026-11-02",
   "end": "2026-11-08",
-  "src": "ATP 2026 calendar"
- },
- {
-  "name": "Stockholm Open",
-  "city": "Stockholm",
-  "country": "Sweden",
-  "tour": "ATP",
-  "tier": "ATP 250",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-11-02",
-  "end": "2026-11-08",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Challenger de Villa Mar\u00eda",
@@ -765,7 +854,8 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Charlottesville Men's Pro Challenger",
@@ -777,7 +867,8 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Costa do Sau\u00edpe Open",
@@ -789,7 +880,8 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Santaizi ATP Challenger",
@@ -801,7 +893,8 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Slovak Open",
@@ -813,7 +906,8 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Chennai Open",
@@ -825,6 +919,7 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -837,6 +932,7 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -849,6 +945,7 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -861,6 +958,7 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -873,6 +971,7 @@
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-07",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -885,7 +984,21 @@
   "draw": 8,
   "start": "2026-11-08",
   "end": "2026-11-15",
+  "precision": "exact",
   "src": "api.wtatennis.com"
+ },
+ {
+  "name": "Stockholm Open",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "tour": "ATP",
+  "tier": "ATP 250",
+  "surface": "Hard (i)",
+  "draw": 28,
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Crete Challenger III",
@@ -897,7 +1010,8 @@
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-15",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Knoxville Challenger",
@@ -909,7 +1023,8 @@
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-15",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Lima Challenger",
@@ -921,7 +1036,8 @@
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-15",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Matsuyama Challenger",
@@ -933,7 +1049,8 @@
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-15",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Monastir Open",
@@ -945,7 +1062,8 @@
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-15",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Open d'Orl\u00e9ans",
@@ -957,7 +1075,8 @@
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-15",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Queensland International III",
@@ -969,7 +1088,8 @@
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-15",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Cundinamarca Open",
@@ -981,6 +1101,7 @@
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-14",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -991,9 +1112,10 @@
   "tier": "Finals",
   "surface": "Hard (i)",
   "draw": 8,
-  "start": "2026-11-15",
+  "start": "2026-11-16",
   "end": "2026-11-22",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Challenger de Drummondville",
@@ -1005,7 +1127,8 @@
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Champaign\u2013Urbana Challenger",
@@ -1017,7 +1140,8 @@
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "HPP Open",
@@ -1029,7 +1153,8 @@
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Kobe Challenger",
@@ -1041,7 +1166,8 @@
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Metz Challenger",
@@ -1053,7 +1179,8 @@
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "NSW Open",
@@ -1065,7 +1192,8 @@
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Uruguay Open",
@@ -1077,7 +1205,8 @@
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "LP Open by IND",
@@ -1089,6 +1218,7 @@
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -1101,7 +1231,8 @@
   "draw": null,
   "start": "2026-11-23",
   "end": "2026-11-29",
-  "src": "ATP 2026 calendar"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "City of Playford Tennis International",
@@ -1113,7 +1244,8 @@
   "draw": 32,
   "start": "2026-11-23",
   "end": "2026-11-29",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Crete Challenger IV",
@@ -1125,7 +1257,8 @@
   "draw": 32,
   "start": "2026-11-23",
   "end": "2026-11-29",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Florian\u00f3polis Challenger",
@@ -1137,7 +1270,8 @@
   "draw": 32,
   "start": "2026-11-23",
   "end": "2026-11-29",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Keio Challenger",
@@ -1149,7 +1283,8 @@
   "draw": 32,
   "start": "2026-11-23",
   "end": "2026-11-29",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Monastir Open II",
@@ -1161,7 +1296,8 @@
   "draw": 32,
   "start": "2026-11-23",
   "end": "2026-11-29",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "IEB+ Argentina Open",
@@ -1173,6 +1309,7 @@
   "draw": 32,
   "start": "2026-11-23",
   "end": "2026-11-29",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -1185,7 +1322,8 @@
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Challenger Temuco",
@@ -1197,7 +1335,8 @@
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Chi\u0219in\u0103u Indoors",
@@ -1209,7 +1348,8 @@
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Crete Challenger V",
@@ -1221,7 +1361,8 @@
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Soma Bay Open II",
@@ -1233,7 +1374,8 @@
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Trnava Challenger",
@@ -1245,7 +1387,8 @@
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Open Angers Loire Tr\u00e9laz\u00e9",
@@ -1257,6 +1400,7 @@
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -1269,6 +1413,7 @@
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
+  "precision": "exact",
   "src": "api.wtatennis.com"
  },
  {
@@ -1281,7 +1426,8 @@
   "draw": 32,
   "start": "2026-12-07",
   "end": "2026-12-13",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "La Paz Challenger",
@@ -1293,7 +1439,8 @@
   "draw": 32,
   "start": "2026-12-07",
   "end": "2026-12-13",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Monastir Open III",
@@ -1305,7 +1452,8 @@
   "draw": 32,
   "start": "2026-12-07",
   "end": "2026-12-13",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Rio de Janeiro Challenger",
@@ -1317,7 +1465,21 @@
   "draw": 32,
   "start": "2026-12-07",
   "end": "2026-12-13",
-  "src": "2026 ATP Challenger Tour"
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Next Gen ATP Finals",
+  "city": "Reggio Calabria",
+  "country": "Italy",
+  "tour": "ATP",
+  "tier": "Next Gen",
+  "surface": "Hard (i)",
+  "draw": null,
+  "start": "2026-12-09",
+  "end": "2026-12-15",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
  },
  {
   "name": "Open BLS de Limoges",
@@ -1329,18 +1491,7 @@
   "draw": 32,
   "start": "2026-12-14",
   "end": "2026-12-20",
+  "precision": "exact",
   "src": "api.wtatennis.com"
- },
- {
-  "name": "Next Gen ATP Finals",
-  "city": "Reggio Calabria",
-  "country": "Italy",
-  "tour": "ATP",
-  "tier": "Finals",
-  "surface": "Hard (i)",
-  "draw": 8,
-  "start": "2026-12-15",
-  "end": "2026-12-19",
-  "src": "ATP 2026 calendar  DATES UNCONFIRMED"
  }
 ]
