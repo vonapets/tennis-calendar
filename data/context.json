@@ -1,0 +1,61 @@
+{
+  "generated_note": "Hand-maintained. Nothing publishes ATP Challenger or ITF draws in a machine-readable feed; the calendar was parsed once from the 2026 ATP Challenger Tour and 2026 WTA 125 calendars and cross-checked against api.wtatennis.com for tour level.",
+  "venue_scale": {
+    "polymarket_tennis_all_time": 3008763638,
+    "kalshi_tour_level": 4776025500,
+    "kalshi_itf": 3927638970,
+    "kalshi_atp_challenger": 2444390186,
+    "kalshi_wta125": 480506332,
+    "note": "Kalshi figures are contracts at $1 notional summed across both per-player books. Polymarket is dollar trade value on the single moneyline market. Cross-venue absolute levels are NOT comparable; rankings within a venue are."
+  },
+  "benchmarks_polymarket_classA": {
+    "SLAM_ATP": 134185662,
+    "SLAM_WTA": 65892106,
+    "1000_ATP": 61319889,
+    "1000_WTA": 45175961,
+    "500_ATP": 20495380,
+    "500_WTA": 14069124,
+    "250_ATP": 13089791,
+    "250_WTA": 9544818
+  },
+  "kalshi_medians": {
+    "tour_level": 102323982,
+    "atp_challenger": 38310043,
+    "wta_125": 28234749,
+    "itf": 10927202,
+    "na_challenger": 83857304,
+    "non_na_challenger": 35243243
+  },
+  "kalshi_tier_share": {
+    "tour_level": 41.1,
+    "itf": 33.8,
+    "atp_challenger": 21.0,
+    "wta_125": 4.1
+  },
+  "growth_factor": {
+    "low": 3,
+    "high": 8,
+    "note": "2025 -> current platform. The anchor is unreliable: the US Open pair gives 2.8x on raw per-match but 8.1x depth-matched, because its listing went from 170 to 532 matches. An earlier 2.1-3.4x estimate was withdrawn - it rested on a Guangzhou pair that compared the WTA 250 against the men's Challenger of the same city."
+  },
+  "before_you_list": [
+    "Confirm the listing layer can carry ATP Challenger and ITF events. Many sports integrations key off per-tour identifiers that only cover ATP and WTA main tour, and every slot-1 pick here is a Challenger.",
+    "Confirm a settlement feed exists for Challenger and ITF results. Tour-level result feeds are well covered; sub-tour is thinner and resolution risk is the main operational cost of this plan."
+  ],
+  "evidence_classes": {
+    "A": "Current platform, >= Apr 2026",
+    "B": "Jan-Mar 2026, platform 1.3-3.1x smaller",
+    "C": "2025 only, platform 3-8x smaller - rank order more reliable than level",
+    "D": "Listed and dead - the strongest negative signal",
+    "E": "Never listed on either venue"
+  },
+  "confidence": {
+    "measured": "this event has its own settled history",
+    "range": "no history for this event; range from tier and region",
+    "none": "never listed anywhere - the number is a regional prior, not a measurement"
+  },
+  "polymarket_live": {
+    "open_events": 214,
+    "open_moneyline_volume": 4023523,
+    "pulled": "2026-09-17"
+  }
+}

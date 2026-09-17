@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tennis Launch Calendar 2026</title>
+<style>
+:root{--bg:#0e1116;--panel:#161b22;--panel2:#1c232c;--line:#2a323d;--ink:#e6edf3;--dim:#8b96a5;
+--go:#3fb950;--hold:#d29922;--skip:#6e7681;--star:#e3b341;--run:#58a6ff;
+--atp:#58a6ff;--wta:#db6ac4;--ch:#3fb950;--itf:#a371f7;--mix:#8b96a5;--pad:16px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+.wrap{max-width:1180px;margin:0 auto;padding:24px var(--pad) 72px}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.4px}
+h2{font-size:17px;margin:34px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+.sub{color:var(--dim);margin:0 0 22px;font-size:13px}
+.warn{background:#2d1b1b;border:1px solid #5c2b2b;border-left:3px solid #d1493f;border-radius:7px;padding:14px 16px;margin:18px 0}
+.warn b{color:#ff9d94}
+.note{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--run);border-radius:7px;padding:14px 16px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:10px;margin:14px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:12px 13px}
+.card .k{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.6px}
+.card .v{font-size:19px;font-weight:650;margin-top:3px;font-variant-numeric:tabular-nums}
+.card .n{color:var(--dim);font-size:11px;margin-top:3px}
+.bar{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 18px}
+.bar button{background:var(--panel);color:var(--dim);border:1px solid var(--line);border-radius:999px;
+padding:6px 13px;font-size:12px;cursor:pointer;font-family:inherit}
+.bar button:hover{color:var(--ink);border-color:#3d4653}
+.bar button[aria-pressed=true]{background:#1f6feb22;color:#79c0ff;border-color:#1f6feb}
+.wk{background:var(--panel);border:1px solid var(--line);border-radius:9px;margin:0 0 14px;overflow:hidden}
+.wk>header{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;padding:11px 15px;background:var(--panel2);border-bottom:1px solid var(--line)}
+.wk>header .d{font-weight:650;font-size:14px}
+.wk>header .r{color:var(--dim);font-size:12px;margin-left:auto}
+.slots{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line)}
+@media(max-width:760px){.slots{grid-template-columns:1fr}}
+.slot{background:var(--panel);padding:13px 15px;min-height:96px}
+.slot .lbl{color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.8px;margin-bottom:7px}
+.slot.empty{background:#12161c}
+.slot.empty .none{color:var(--skip);font-style:italic;font-size:13px}
+.nm{font-weight:650;font-size:15px;margin-bottom:3px}
+.nm .st{color:var(--star)}
+.meta{color:var(--dim);font-size:12px;margin-bottom:6px}
+.proj{font-variant-numeric:tabular-nums;font-size:13px;font-weight:600;color:#7ee787}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin:7px 0 0}
+.t{font-size:10px;padding:2px 7px;border-radius:4px;border:1px solid var(--line);color:var(--dim);white-space:nowrap}
+.t.ATP{color:var(--atp);border-color:#1f4a75}.t.WTA{color:var(--wta);border-color:#6b2f5e}
+.t.ATP-CH,.t.WTA-125{color:var(--ch);border-color:#1f5c2e}.t.ITF{color:var(--itf);border-color:#4a2f75}
+.t.MIXED{color:var(--mix)}
+.t.launch{color:var(--go);border-color:#1f5c2e}.t.hold{color:var(--hold);border-color:#6b5320}
+.t.skip{color:var(--skip)}.t.running{color:var(--run);border-color:#1f4a75}
+.t.E{color:#d1493f;border-color:#5c2b2b}.t.D{color:#d1493f;border-color:#5c2b2b}
+.t.A{color:var(--go);border-color:#1f5c2e}.t.B{color:var(--hold);border-color:#6b5320}
+.why{color:var(--dim);font-size:12px;margin-top:7px;line-height:1.45}
+.also{padding:11px 15px;border-top:1px solid var(--line);background:#12161c}
+.also summary{cursor:pointer;color:var(--dim);font-size:12px;user-select:none}
+.also summary:hover{color:var(--ink)}
+.also table{width:100%;border-collapse:collapse;margin-top:10px;font-size:12px}
+.also th{text-align:left;color:var(--dim);font-weight:500;padding:5px 8px 5px 0;border-bottom:1px solid var(--line);font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+.also td{padding:6px 8px 6px 0;border-bottom:1px solid #1d242d;vertical-align:top}
+.also tr:last-child td{border-bottom:0}
+.tblwrap{overflow-x:auto}
+table.plain{width:100%;border-collapse:collapse;font-size:13px}
+table.plain th{text-align:left;color:var(--dim);font-weight:500;padding:8px 10px 8px 0;border-bottom:1px solid var(--line);font-size:11px;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
+table.plain td{padding:8px 10px 8px 0;border-bottom:1px solid #1d242d;vertical-align:top}
+.num{font-variant-numeric:tabular-nums;text-align:right}
+ol.steps{padding-left:20px}ol.steps li{margin:9px 0}
+footer{color:var(--dim);font-size:12px;margin-top:44px;padding-top:16px;border-top:1px solid var(--line)}
+code{background:#1c232c;padding:1px 5px;border-radius:4px;font-size:12px}
+</style></head><body><div class="wrap">
+
+<h1>Tennis Launch Calendar</h1>
+<p class="sub">Which tennis tournaments to list, in what order, every week to 31 December 2026 &middot; built <span id="built"></span></p>
+
+<div class="warn">
+<b>How to read the numbers.</b> Every projection is what the tournament traded on
+<b>Polymarket</b> (own history &times; 3&ndash;8&times; platform growth) or <b>Kalshi</b>, whichever is noted.
+Those are the two largest venues in the sport and they are useful for <em>ranking</em> tournaments
+against each other. They are not a forecast of what any other book will do &mdash; a newer or smaller
+venue should read the ordering, not the levels.
+<br><br>
+Where a row is marked <span class="t E">[E] none</span> the event has never traded anywhere and the
+number is a regional prior, not a measurement. That applies to <b>every slot&nbsp;1 pick below</b>.
+</div>
+
+<div class="note" id="blockers"></div>
+
+<h2>What the two venues say</h2>
+<div class="grid" id="stats"></div>
+
+<h2>The launch calendar</h2>
+<p class="sub">One <b>slot 1</b> pick every week with no gaps &mdash; the sub-tour circuit is ~50% of tennis volume on
+both Polymarket and Kalshi and runs Monday&ndash;Sunday all year. <b>Slot 2</b> opens only for a tour event
+that clears the bar. Everything else that week is listed under &ldquo;also on&rdquo; with a verdict.</p>
+<div class="bar" id="filters"></div>
+<div id="cal"></div>
+
+<h2>Ranked: tour-level events worth the second slot</h2>
+<div class="tblwrap"><table class="plain" id="tourtbl"></table></div>
+
+<h2>Do not launch</h2>
+<div class="tblwrap"><table class="plain" id="skiptbl"></table></div>
+
+<h2>Order of operations</h2>
+<ol class="steps">
+<li><b>Mon 21 Sep &mdash; start the Challenger roll</b> with San Diego. Then never miss a week. The point is
+not the volume of any one event; it is that the tennis card becomes always-on, with no week where
+there is nothing to trade.</li>
+<li><b>Mon 5 Oct &mdash; open slot 2</b> with Shanghai Masters, the largest draw available before the
+Australian Open (96, two weeks).</li>
+<li><b>Mon 26 Oct &mdash; Basel.</b> Roughly equal to Shanghai on projection with a third of the draw.</li>
+<li><b>Mon 2 Nov and Sun 15 Nov &mdash; Paris Masters and the ATP Finals</b> (the Finals run 15&ndash;22 Nov, so they straddle the week boundary below). Plan these in advance and
+hold the slot. They are the exam, they come once a year, and the ATP Finals needs only 18 markets.</li>
+<li><b>Set a go/no-go for late October.</b> Decide in advance what a listed tournament has to clear
+for the plan to be working. If the weekly Challenger card is not meeting it by then, listing Paris
+will not fix that, and the problem is upstream of tournament selection.</li>
+</ol>
+
+<h2>How a row is sized</h2>
+<div class="tblwrap"><table class="plain" id="method"></table></div>
+
+<footer id="foot"></footer>
+</div>
+<script id="payload" type="application/json">__DATA__</script>
+<script>
+const D=JSON.parse(document.getElementById('payload').textContent);
+const money=n=>n==null?'':'$'+(n>=1e6?(n/1e6).toFixed(n>=1e7?0:1)+'M':n>=1e3?(n/1e3).toFixed(0)+'k':n.toFixed(2));
+const rng=(a,b)=>a==null?'':(a===b?money(a):money(a)+'–'+money(b));
+const DT=s=>{const[y,m,d]=s.split('-').map(Number);return new Date(Date.UTC(y,m-1,d))};
+const FMT=s=>DT(s).toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'});
+document.getElementById('built').textContent=D.built;
+
+document.getElementById('blockers').innerHTML='<b>Check these two before listing anything in slot 1</b><ol style="margin:8px 0 0;padding-left:20px">'
+ +D.context.before_you_list.map(b=>'<li style="margin:5px 0">'+b+'</li>').join('')+'</ol>';
+
+const K=D.context.kalshi_medians,S=D.context.kalshi_tier_share,V=D.context.venue_scale;
+document.getElementById('stats').innerHTML=[
+ ['Kalshi \u2014 tour level',money(V.kalshi_tour_level),S.tour_level+'% of its per-match tennis'],
+ ['Kalshi \u2014 ITF',money(V.kalshi_itf),S.itf+'% \u2014 237 tournaments, never a gap week'],
+ ['Kalshi \u2014 ATP Challenger',money(V.kalshi_atp_challenger),S.atp_challenger+'% \u2014 60 tournaments'],
+ ['Kalshi \u2014 WTA 125',money(V.kalshi_wta125),S.wta_125+'% \u2014 17 tournaments'],
+ ['Median tour event',money(K.tour_level),'Kalshi notional'],
+ ['Median ATP Challenger',money(K.atp_challenger),'0.37\u00d7 a tour event, and one runs every week'],
+ ['Median ITF event',money(K.itf),'~16 run in parallel, all year'],
+ ['North America vs rest',(K.na_challenger/K.non_na_challenger).toFixed(2)+'\u00d7',money(K.na_challenger)+' vs '+money(K.non_na_challenger)+' per Challenger']
+].map(([k,v,n])=>`<div class="card"><div class="k">${k}</div><div class="v">${v}</div><div class="n">${n}</div></div>`).join('');
+
+let F={tour:'all',verdict:'all'};
+const FB=[['tour','all','All tours'],['tour','ATP','ATP'],['tour','WTA','WTA'],
+          ['tour','ATP-CH','Challenger'],['tour','WTA-125','WTA 125'],['tour','ITF','ITF'],
+          ['verdict','all','All verdicts'],['verdict','launch','Launch only'],['verdict','skip','Skip only']];
+document.getElementById('filters').innerHTML=FB.map(([g,v,l])=>
+ `<button data-g="${g}" data-v="${v}" aria-pressed="${F[g]===v}">${l}</button>`).join('');
+document.getElementById('filters').onclick=e=>{const b=e.target.closest('button');if(!b)return;
+ F[b.dataset.g]=b.dataset.v;
+ [...document.querySelectorAll('#filters button')].forEach(x=>x.setAttribute('aria-pressed',F[x.dataset.g]===x.dataset.v));
+ draw()};
+const pass=t=>t&&(F.tour==='all'||t.tour===F.tour)&&(F.verdict==='all'||t.verdict===F.verdict);
+
+function card(t,lbl){
+ if(!t)return `<div class="slot empty"><div class="lbl">${lbl}</div><div class="none">&mdash; nothing worth a slot</div></div>`;
+ const star=/^STAR\.?/.test(t.note||'');
+ return `<div class="slot"><div class="lbl">${lbl}</div>
+ <div class="nm">${star?'<span class="st">★★</span> ':''}${t.name}</div>
+ <div class="meta">${t.city}, ${t.country} · ${t.surface}${t.draw?' · '+t.draw+'S':''} · ${FMT(t.start)}–${FMT(t.end)}</div>
+ ${t.low?`<div class="proj">${rng(t.low,t.high)}</div>`:''}
+ <div class="tags"><span class="t ${t.tour}">${t.tier}</span><span class="t ${t.verdict}">${t.verdict}</span>
+ <span class="t ${t.evidence}">[${t.evidence}] ${t.confidence}</span></div>
+ ${t.note?`<div class="why">${t.note.replace(/^STAR\.\s*/,'')}</div>`:''}</div>`}
+
+function draw(){
+ document.getElementById('cal').innerHTML=D.weeks.map(w=>{
+  const s1=pass(w.slot1)?w.slot1:null, s2=pass(w.slot2)?w.slot2:null;
+  const also=(w.also_on||[]).filter(pass);
+  if(!s1&&!s2&&!also.length)return '';
+  const wk=`${FMT(w.week_start)} – ${FMT(w.week_end)}`;
+  return `<section class="wk"><header><span class="d">${wk}</span>
+   <span class="r">${(w.also_on||[]).length+ (w.slot1?1:0)+(w.slot2?1:0)} events on tour</span></header>
+   <div class="slots">${card(s1,'Slot 1 — always-on')}${card(s2,'Slot 2 — tour spike')}</div>
+   ${also.length?`<div class="also"><details><summary>Also on this week (${also.length})</summary>
+    <table><thead><tr><th>Event</th><th>Tier</th><th>Where</th><th class="num">Projected</th><th>Verdict</th><th>Evidence</th></tr></thead><tbody>
+    ${also.map(t=>`<tr><td><b>${t.name}</b>${t.note?`<div class="why">${t.note}</div>`:''}</td>
+      <td><span class="t ${t.tour}">${t.tier}</span></td><td>${t.city}</td>
+      <td class="num">${rng(t.low,t.high)||'—'}</td>
+      <td><span class="t ${t.verdict}">${t.verdict}</span></td>
+      <td><span class="t ${t.evidence}">[${t.evidence}]</span> ${t.confidence}</td></tr>`).join('')}
+    </tbody></table></details></div>`:''}</section>`}).join('')||
+  '<p class="sub">Nothing matches that filter.</p>';
+}
+draw();
+
+const all=[];D.weeks.forEach(w=>{[w.slot1,w.slot2,...(w.also_on||[])].forEach(t=>{if(t)all.push(t)})});
+const uniq=m=>{const s=new Set();return m.filter(t=>{const k=t.name+t.tour;if(s.has(k))return false;s.add(k);return true})};
+const tour=uniq(all.filter(t=>['ATP','WTA'].includes(t.tour)&&t.low)).sort((a,b)=>b.high-a.high);
+document.getElementById('tourtbl').innerHTML='<thead><tr><th>#</th><th>Tournament</th><th>Tier</th><th>Dates</th><th class="num">Projected</th><th>Verdict</th><th>Evidence</th></tr></thead><tbody>'
+ +tour.map((t,i)=>`<tr><td class="num">${i+1}</td><td><b>${t.name}</b>, ${t.city}</td>
+ <td><span class="t ${t.tour}">${t.tier}</span></td><td>${FMT(t.start)}–${FMT(t.end)}</td>
+ <td class="num"><b>${rng(t.low,t.high)}</b></td><td><span class="t ${t.verdict}">${t.verdict}</span></td>
+ <td><span class="t ${t.evidence}">[${t.evidence}]</span></td></tr>`).join('')+'</tbody>';
+
+const sk=uniq(all.filter(t=>t.verdict==='skip'));
+document.getElementById('skiptbl').innerHTML='<thead><tr><th>Event</th><th>When</th><th class="num">Projected</th><th>Why not</th></tr></thead><tbody>'
+ +sk.map(t=>`<tr><td><b>${t.name}</b>, ${t.city}</td><td>${FMT(t.start)}</td>
+ <td class="num">${rng(t.low,t.high)||'—'}</td><td>${t.note||''}</td></tr>`).join('')+'</tbody>';
+
+const C=D.context;
+document.getElementById('method').innerHTML='<thead><tr><th>Class</th><th>Meaning</th></tr></thead><tbody>'
+ +Object.entries(C.evidence_classes).map(([k,v])=>`<tr><td><span class="t ${k}">[${k}]</span></td><td>${v}</td></tr>`).join('')
+ +Object.entries(C.confidence).map(([k,v])=>`<tr><td><span class="t">${k}</span></td><td>${v}</td></tr>`).join('')
+ +`<tr><td>growth</td><td>Own history × ${C.growth_factor.low}–${C.growth_factor.high}×. ${C.growth_factor.note}</td></tr>`
+ +`<tr><td>units</td><td>${C.venue_scale.note}</td></tr></tbody>`;
+
+const PL=C.polymarket_live;
+if(PL){document.getElementById('stats').insertAdjacentHTML('beforeend',
+ `<div class="card" style="border-color:#1f6feb55"><div class="k">Polymarket open tennis</div><div class="v">${money(PL.open_moneyline_volume)}</div><div class="n">${PL.open_events} events \u00b7 pulled ${PL.pulled}</div></div>`);}
+document.getElementById('foot').innerHTML=C.generated_note+
+ ''+' Sources: Polymarket Gamma API, Kalshi trade API, api.wtatennis.com, 2026 ATP Challenger Tour and 2026 WTA 125 calendars.';
+</script></body></html>
