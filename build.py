@@ -35,6 +35,19 @@ def main():
     out = tpl.replace('__DATA__', blob)
     (ROOT/'calendar.html').write_text(out)
 
+    # the page is one big inline script: a syntax error renders a blank page
+    import shutil, subprocess, tempfile, re as _re2
+    if shutil.which('node'):
+        body = _re2.findall(r'<script>(.*?)</script>', out, _re2.S)[-1]
+        with tempfile.NamedTemporaryFile('w', suffix='.js', delete=False) as f:
+            f.write(body); tmp = f.name
+        chk = subprocess.run(['node', '--check', tmp], capture_output=True, text=True)
+        if chk.returncode:
+            print("PAGE SCRIPT WILL NOT PARSE — calendar.html would render blank:")
+            print(chk.stderr.strip()[:600])
+            return 1
+        print("  page script parses (node --check)")
+
     bad = []
     for w in weeks:
         for t in [w.get('slot1'), w.get('slot2')] + (w.get('also_on') or []):

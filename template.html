@@ -364,7 +364,7 @@ document.getElementById('itftbl').innerHTML=
  +'<tr><td colspan="3" style="padding-top:12px;color:var(--dim)">Biggest ITF events on Kalshi</td></tr>'
  +I.biggest.map(b=>`<tr><td style="padding-left:16px"><b>${b.name}</b></td><td class="num">${money(b.per_match)}</td><td class="num">${money(b.total)} total</td></tr>`).join('')
  +'</tbody>';
-const DS=I.per_match_distribution, SEL=I.selectability, WX=I.worked_example;
+const DS=I.per_match_distribution, ISEL=I.selectability, WX=I.worked_example;
 document.getElementById('itftbl').insertAdjacentHTML('beforeend',
  '<tr><td colspan="3" style="padding-top:12px;color:var(--dim)">Per-match distribution &mdash; the median hides the shape</td></tr>'
  +[['ITF',DS.itf],['ATP Challenger',DS.challenger]].map(([k,x])=>
@@ -374,7 +374,7 @@ document.getElementById('itftbl').insertAdjacentHTML('beforeend',
 document.getElementById('itfnote').innerHTML=
  `<b>What the median hides.</b> ${DS.headline}<br><br>
   <b>Worked example.</b> ${WX.match} traded <b>${money(WX.volume)}</b>. ${WX.note}<br><br>
-  <b>Can you pick the tail in advance?</b> ${SEL.verdict}<br><br>
+  <b>Can you pick the tail in advance?</b> ${ISEL.verdict}<br><br>
   <b>Why slot 1 is still a Challenger.</b> ${SP.verdict}<br><br>
   <b>The regional signal is inverted.</b> ${I.region_note}<br><br>
   <b>If you do list ITF.</b> ${I.selection_rule}<br><br>
