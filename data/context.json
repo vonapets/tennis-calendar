@@ -57,5 +57,59 @@
     "open_events": 214,
     "open_moneyline_volume": 4023523,
     "pulled": "2026-09-17"
+  },
+  "sub_tour_per_match": {
+    "note": "Kalshi notional per match, which is the fair way to compare tiers - total volume just tracks how many tournaments there are.",
+    "atp_challenger": 844825,
+    "wta_125": 843779,
+    "itf": 257975,
+    "per_slot_week": {
+      "atp_challenger": 33673237,
+      "wta_125": 23571933,
+      "itf": 6198592
+    },
+    "verdict": "A median Challenger is 3.3x a median ITF event per match and 5.4x per slot-week. That is why slot 1 is a Challenger every week - not because ITF is a weak product."
+  },
+  "itf": {
+    "why_not_on_the_grid": "No source publishes ITF draws with dates. The WTA API carries ITF but none of its rows reach this window, and there is no equivalent men's feed. ITF is absent from the calendar for that reason ALONE - it is not a recommendation against listing it.",
+    "total_kalshi": 3927638970,
+    "tournaments": 237,
+    "median_total": 10927202,
+    "share_of_kalshi_tennis": 33.8,
+    "biggest": [
+      {
+        "name": "M15 Bali",
+        "total": 197767861,
+        "per_match": 960038
+      },
+      {
+        "name": "W15 Tianjin",
+        "total": 139542763,
+        "per_match": 894505
+      },
+      {
+        "name": "W15 Brisbane",
+        "total": 125307179,
+        "per_match": 1080234
+      },
+      {
+        "name": "M15 Brisbane",
+        "total": 90569089,
+        "per_match": 1161142
+      },
+      {
+        "name": "M25 Brisbane",
+        "total": 69917456,
+        "per_match": 1792755
+      }
+    ],
+    "by_region_per_match": {
+      "Asia-Pacific": 371090,
+      "Americas": 290616,
+      "Europe / other": 119701
+    },
+    "region_note": "The regional signal is the OPPOSITE of the Challenger one. Challengers pay in North America (~2.4x); ITF pays in Asia-Pacific, and Europe - which is 193 of 216 ITF events - is the weakest at $119,701 per match. The $257,975 ITF median is dragged down by that European tail.",
+    "selection_rule": "If you list ITF, take an Asia-Pacific M15 or M25 (Bali, Tianjin, Brisbane, Astana, Taipei, Maanshan). The best of those clear $900k-1.8M per match, above a median Challenger. A European W15 at $119k per match is not worth a slot.",
+    "when_it_wins": "ITF is the overflow tier. With only 1-2 slots a Challenger wins every week, including December when the Challenger slate drops to Challenger 50s (still ~$20M a week). ITF becomes the right answer if the slot count ever rises above two, or as the filler after the Challenger season ends on 13 December - ITF runs straight through the holidays."
   }
 }

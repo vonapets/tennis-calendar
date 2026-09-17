@@ -152,8 +152,9 @@ number is a regional prior, not a measurement. That applies to <b>every slot&nbs
 
 <div id="v-cal">
  <p class="sub">Every tournament running each day, 21 Sep to 31 Dec 2026. Click a day for the full list.
- ITF is not shown: roughly 16 events run in parallel every week of the year and no source publishes
- their draws in a dated feed &mdash; assume ITF is always available.</p>
+ <b>ITF is missing from this grid because no source publishes its draws with dates</b> &mdash; not because
+ it is a weak product. Roughly 16 ITF events run in parallel every week of the year, including the
+ holidays. See <a href="#itf" style="color:#79c0ff">ITF</a> below.</p>
  <div id="months"></div>
  <div class="daypanel" id="daypanel" hidden></div>
 </div>
@@ -169,6 +170,13 @@ number is a regional prior, not a measurement. That applies to <b>every slot&nbs
  Monday&ndash;Sunday all year. <b>Slot 2</b> opens only for a tour event that clears the bar.</p>
  <div id="cal"></div>
 </div>
+
+<h2 id="itf">ITF &mdash; why it is not in slot 1, and when it should be</h2>
+<p class="sub">ITF is the largest sub-tour pool on Kalshi at <b>$3.93bn across 237 tournaments</b>, a third of
+all its per-match tennis. It is absent from the grid above only because nothing publishes dated ITF draws.
+That absence is a data gap, not a verdict.</p>
+<div class="tblwrap"><table class="plain" id="itftbl"></table></div>
+<div class="note" id="itfnote"></div>
 
 <h2>Ranked: tour-level events worth the second slot</h2>
 <div class="tblwrap"><table class="plain" id="tourtbl"></table></div>
@@ -343,6 +351,24 @@ const sk=uniq(all.filter(t=>t.verdict==='skip'));
 document.getElementById('skiptbl').innerHTML='<thead><tr><th>Event</th><th>When</th><th class="num">Projected</th><th>Why not</th></tr></thead><tbody>'
  +sk.map(t=>`<tr><td><b>${t.name}</b>, ${t.city}</td><td>${FMT(t.start)}</td>
  <td class="num">${rng(t.low,t.high)||'—'}</td><td>${t.note||''}</td></tr>`).join('')+'</tbody>';
+
+const I=D.context.itf, SP=D.context.sub_tour_per_match;
+document.getElementById('itftbl').innerHTML=
+ '<thead><tr><th>Per match (Kalshi notional)</th><th class="num">$ / match</th><th class="num">$ / slot-week</th></tr></thead><tbody>'
+ +[['ATP Challenger',SP.atp_challenger,SP.per_slot_week.atp_challenger],
+   ['WTA 125',SP.wta_125,SP.per_slot_week.wta_125],
+   ['ITF (all, median)',SP.itf,SP.per_slot_week.itf]]
+  .map(([k,v,w])=>`<tr><td>${k}</td><td class="num"><b>${money(v)}</b></td><td class="num">${money(w)}</td></tr>`).join('')
+ +'<tr><td colspan="3" style="padding-top:12px;color:var(--dim)">ITF per match by region &mdash; the signal runs opposite to Challengers</td></tr>'
+ +Object.entries(I.by_region_per_match).map(([k,v])=>`<tr><td style="padding-left:16px">${k}</td><td class="num">${money(v)}</td><td></td></tr>`).join('')
+ +'<tr><td colspan="3" style="padding-top:12px;color:var(--dim)">Biggest ITF events on Kalshi</td></tr>'
+ +I.biggest.map(b=>`<tr><td style="padding-left:16px"><b>${b.name}</b></td><td class="num">${money(b.per_match)}</td><td class="num">${money(b.total)} total</td></tr>`).join('')
+ +'</tbody>';
+document.getElementById('itfnote').innerHTML=
+ `<b>Why slot 1 is a Challenger, not an ITF event.</b> ${SP.verdict}<br><br>
+  <b>The regional signal is inverted.</b> ${I.region_note}<br><br>
+  <b>If you do list ITF.</b> ${I.selection_rule}<br><br>
+  <b>When ITF becomes the right answer.</b> ${I.when_it_wins}`;
 
 const C=D.context;
 document.getElementById('method').innerHTML='<thead><tr><th>Class</th><th>Meaning</th></tr></thead><tbody>'
