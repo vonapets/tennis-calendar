@@ -20,9 +20,9 @@
   },
   "kalshi_medians": {
     "tour_level": 102323982,
-    "atp_challenger": 38310043,
-    "wta_125": 28234749,
-    "itf": 10927202,
+    "atp_challenger": 39081289,
+    "wta_125": 31702813,
+    "itf": 12205863,
     "na_challenger": 83857304,
     "non_na_challenger": 35243243
   },
@@ -54,8 +54,8 @@
     "none": "never listed anywhere - the number is a regional prior, not a measurement"
   },
   "polymarket_live": {
-    "open_events": 214,
-    "open_moneyline_volume": 4023523,
+    "open_events": 182,
+    "open_moneyline_volume": 4349026,
     "pulled": "2026-09-17"
   },
   "sub_tour_per_match": {
@@ -162,6 +162,28 @@
         "Ohashi": 1181511
       },
       "note": "A first-round match at a $35,000 event did $2.85M. That is ITF's p99, not a freak: 297 ITF matches cleared $2M in ten weeks, about 30 a week. It is also Asia-Pacific, consistent with the regional split."
+    }
+  },
+  "kalshi_detail": {
+    "tour_level": {
+      "total": 4778495208,
+      "tournaments": 24,
+      "median": 102323982
+    },
+    "atp_challenger": {
+      "total": 2412678424,
+      "tournaments": 53,
+      "median": 39081289
+    },
+    "wta_125": {
+      "total": 477687302,
+      "tournaments": 14,
+      "median": 31702813
+    },
+    "itf": {
+      "total": 3893552302,
+      "tournaments": 216,
+      "median": 12205863
     }
   }
 }
