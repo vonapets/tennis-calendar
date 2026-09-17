@@ -64,6 +64,55 @@ table.plain td{padding:8px 10px 8px 0;border-bottom:1px solid #1d242d;vertical-a
 .num{font-variant-numeric:tabular-nums;text-align:right}
 ol.steps{padding-left:20px}ol.steps li{margin:9px 0}
 footer{color:var(--dim);font-size:12px;margin-top:44px;padding-top:16px;border-top:1px solid var(--line)}
+.tabs{display:flex;gap:4px;margin:18px 0 6px;border-bottom:1px solid var(--line)}
+.tabs button{background:none;border:0;border-bottom:2px solid transparent;color:var(--dim);
+padding:9px 15px;font-size:14px;cursor:pointer;font-family:inherit;margin-bottom:-1px}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected=true]{color:#79c0ff;border-bottom-color:#1f6feb}
+.mo{margin:0 0 26px}
+.mo h3{font-size:15px;margin:0 0 9px;font-weight:650}
+.dow{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-bottom:4px}
+.dow div{color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.6px;text-align:center;padding:2px 0}
+.mg{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.dy{background:var(--panel);border:1px solid var(--line);border-radius:5px;min-height:74px;padding:4px 5px;
+cursor:pointer;overflow:hidden;position:relative}
+.dy:hover{border-color:#3d4653}
+.dy.out{background:#0f1319;border-color:#181e26}
+.dy.tdy{border-color:#1f6feb;box-shadow:0 0 0 1px #1f6feb44}
+.dy.sel{border-color:#79c0ff;background:#12202f}
+.dy .n{color:var(--dim);font-size:10px;font-variant-numeric:tabular-nums;margin-bottom:3px}
+.dy.tdy .n{color:#79c0ff;font-weight:700}
+.chip{font-size:9px;line-height:1.35;padding:1px 4px;border-radius:3px;margin-bottom:2px;
+white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-left:2px solid}
+.chip.ATP{background:#132a44;border-color:var(--atp);color:#a5d4ff}
+.chip.WTA{background:#3a1733;border-color:var(--wta);color:#f0aade}
+.chip.ATP-CH{background:#122c1b;border-color:var(--ch);color:#8ce49f}
+.chip.WTA-125{background:#1b2c2c;border-color:#39a0a0;color:#8bd6d6}
+.chip.pick{box-shadow:inset 2px 0 0 var(--star)}
+.more{color:var(--dim);font-size:9px;padding-left:3px}
+.daypanel{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:14px 0 0;position:sticky;bottom:12px}
+.daypanel h4{margin:0 0 9px;font-size:14px}
+.daypanel table{width:100%;border-collapse:collapse;font-size:12px}
+.daypanel td{padding:5px 8px 5px 0;border-bottom:1px solid #1d242d}
+.daypanel tr:last-child td{border-bottom:0}
+.gantt{overflow-x:auto;padding-bottom:6px}
+.gt{min-width:760px;position:relative}
+.gt .hdr{display:flex;border-bottom:1px solid var(--line);margin-bottom:6px;position:sticky;top:0;background:var(--bg);z-index:2}
+.gt .hdr .lab{flex:0 0 190px}
+.gt .hdr .mon{flex:1;color:var(--dim);font-size:11px;padding:4px 0 6px;border-left:1px solid var(--line);padding-left:6px}
+.grow{display:flex;align-items:center;min-height:23px}
+.grow .lab{flex:0 0 190px;font-size:11px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:8px}
+.track{flex:1;position:relative;height:17px}
+.bar{position:absolute;height:15px;top:1px;border-radius:3px;font-size:9px;line-height:15px;
+padding:0 5px;color:#04121f;font-weight:650;overflow:hidden;white-space:nowrap}
+.bar.ATP{background:var(--atp)}.bar.WTA{background:var(--wta)}
+.bar.ATP-CH{background:var(--ch)}.bar.WTA-125{background:#39a0a0}
+.bar.pick{outline:2px solid var(--star);outline-offset:-2px}
+.gsec{color:var(--star);font-size:11px;text-transform:uppercase;letter-spacing:.7px;margin:14px 0 5px;font-weight:650}
+.key{display:flex;flex-wrap:wrap;gap:12px;margin:10px 0 16px;font-size:11px;color:var(--dim)}
+.key span{display:flex;align-items:center;gap:5px}
+.key i{width:11px;height:11px;border-radius:3px;display:inline-block}
+@media(max-width:700px){.dy{min-height:58px}.chip{font-size:8px}.gt .hdr .lab,.grow .lab{flex-basis:118px}}
 code{background:#1c232c;padding:1px 5px;border-radius:4px;font-size:12px}
 </style></head><body><div class="wrap">
 
@@ -86,12 +135,40 @@ number is a regional prior, not a measurement. That applies to <b>every slot&nbs
 <h2>What the two venues say</h2>
 <div class="grid" id="stats"></div>
 
-<h2>The launch calendar</h2>
-<p class="sub">One <b>slot 1</b> pick every week with no gaps &mdash; the sub-tour circuit is ~50% of tennis volume on
-both Polymarket and Kalshi and runs Monday&ndash;Sunday all year. <b>Slot 2</b> opens only for a tour event
-that clears the bar. Everything else that week is listed under &ldquo;also on&rdquo; with a verdict.</p>
+<div class="tabs" id="tabs">
+ <button data-v="cal" aria-selected="true">Calendar</button>
+ <button data-v="time" aria-selected="false">Timeline</button>
+ <button data-v="plan" aria-selected="false">Launch plan</button>
+</div>
+
+<div class="key">
+ <span><i style="background:var(--atp)"></i>ATP tour</span>
+ <span><i style="background:var(--wta)"></i>WTA tour</span>
+ <span><i style="background:var(--ch)"></i>ATP Challenger</span>
+ <span><i style="background:#39a0a0"></i>WTA 125</span>
+ <span><i style="background:var(--star)"></i>a launch pick</span>
+</div>
 <div class="bar" id="filters"></div>
-<div id="cal"></div>
+
+<div id="v-cal">
+ <p class="sub">Every tournament running each day, 21 Sep to 31 Dec 2026. Click a day for the full list.
+ ITF is not shown: roughly 16 events run in parallel every week of the year and no source publishes
+ their draws in a dated feed &mdash; assume ITF is always available.</p>
+ <div id="months"></div>
+ <div class="daypanel" id="daypanel" hidden></div>
+</div>
+
+<div id="v-time" hidden>
+ <p class="sub">Every tournament as a bar. Overlaps are the scheduling problem: with two slots you
+ are always choosing between the rows that overlap.</p>
+ <div class="gantt"><div class="gt" id="gt"></div></div>
+</div>
+
+<div id="v-plan" hidden>
+ <p class="sub">One <b>slot 1</b> pick every week with no gaps &mdash; the sub-tour circuit runs
+ Monday&ndash;Sunday all year. <b>Slot 2</b> opens only for a tour event that clears the bar.</p>
+ <div id="cal"></div>
+</div>
 
 <h2>Ranked: tour-level events worth the second slot</h2>
 <div class="tblwrap"><table class="plain" id="tourtbl"></table></div>
@@ -143,6 +220,72 @@ document.getElementById('stats').innerHTML=[
  ['North America vs rest',(K.na_challenger/K.non_na_challenger).toFixed(2)+'\u00d7',money(K.na_challenger)+' vs '+money(K.non_na_challenger)+' per Challenger']
 ].map(([k,v,n])=>`<div class="card"><div class="k">${k}</div><div class="v">${v}</div><div class="n">${n}</div></div>`).join('');
 
+
+/* ---------------- month grid + timeline ---------------- */
+const EV=D.events, TODAY=D.today;
+const iso=d=>d.toISOString().slice(0,10);
+const addD=(d,n)=>new Date(d.getTime()+n*864e5);
+const MONTHS=[[2026,8],[2026,9],[2026,10],[2026,11]];
+const MN=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const active=day=>EV.filter(e=>e.start<=day&&day<=e.end).filter(pass);
+
+let SEL=null;
+function months(){
+ document.getElementById('months').innerHTML=MONTHS.map(([y,m])=>{
+  const first=new Date(Date.UTC(y,m,1)), last=new Date(Date.UTC(y,m+1,0));
+  let cur=addD(first,-((first.getUTCDay()+6)%7));           // back to Monday
+  const cells=[];
+  while(cur<=last||cells.length%7){
+   const day=iso(cur), out=cur.getUTCMonth()!==m, on=active(day);
+   const shown=on.slice(0,3), rest=on.length-shown.length;
+   cells.push(`<div class="dy${out?' out':''}${day===TODAY?' tdy':''}${day===SEL?' sel':''}" data-d="${day}">
+     <div class="n">${cur.getUTCDate()}</div>
+     ${shown.map(e=>`<div class="chip ${e.tour}${e.pick?' pick':''}" title="${e.name}">${e.city||e.name}</div>`).join('')}
+     ${rest>0?`<div class="more">+${rest}</div>`:''}</div>`);
+   cur=addD(cur,1);
+   if(cells.length>41&&cur>last)break;
+  }
+  return `<div class="mo"><h3>${MN[m]} ${y}</h3>
+   <div class="dow">${['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(d=>`<div>${d}</div>`).join('')}</div>
+   <div class="mg">${cells.join('')}</div></div>`}).join('');
+}
+function showDay(day){
+ SEL=day; months();
+ const on=active(day), p=document.getElementById('daypanel');
+ if(!on.length){p.hidden=true;return}
+ p.hidden=false;
+ p.innerHTML=`<h4>${DT(day).toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',timeZone:'UTC'})}
+  &mdash; ${on.length} tournament${on.length>1?'s':''} running</h4><table>`
+  +on.map(e=>`<tr><td><span class="chip ${e.tour}" style="display:inline-block">${e.tier}</span></td>
+   <td><b>${e.name}</b>${e.pick?' <span style="color:var(--star)">★ launch pick</span>':''}</td>
+   <td>${e.city}${e.country?', '+e.country:''}</td><td>${e.surface||''}</td>
+   <td>${e.draw?e.draw+'S':''}</td>
+   <td style="color:var(--dim)">${FMT(e.start)}–${FMT(e.end)}</td></tr>`).join('')+'</table>';
+}
+document.getElementById('months').onclick=e=>{const c=e.target.closest('.dy');if(c)showDay(c.dataset.d)};
+
+const G0=new Date(Date.UTC(2026,8,21)), G1=new Date(Date.UTC(2026,11,31));
+const SPAN=(G1-G0)/864e5;
+function gantt(){
+ const rows=EV.filter(pass);
+ const order={'ATP':0,'WTA':1,'ATP-CH':2,'WTA-125':3};
+ const LBL={'ATP':'ATP tour','WTA':'WTA tour','ATP-CH':'ATP Challenger','WTA-125':'WTA 125'};
+ let html=`<div class="hdr"><div class="lab"></div>`
+  +MONTHS.map(([y,m])=>`<div class="mon">${MN[m].slice(0,3)}</div>`).join('')+`</div>`;
+ [...new Set(rows.map(r=>r.tour))].sort((a,b)=>order[a]-order[b]).forEach(tr=>{
+  html+=`<div class="gsec">${LBL[tr]||tr}</div>`;
+  rows.filter(r=>r.tour===tr).sort((a,b)=>a.start<b.start?-1:1).forEach(e=>{
+   const l=Math.max(0,(DT(e.start)-G0)/864e5), r=Math.min(SPAN,(DT(e.end)-G0)/864e5);
+   html+=`<div class="grow"><div class="lab" title="${e.name}">${e.name}</div><div class="track">
+    <div class="bar ${e.tour}${e.pick?' pick':''}" style="left:${100*l/SPAN}%;width:${Math.max(1.1,100*(r-l+1)/SPAN)}%"
+     title="${e.name} · ${FMT(e.start)}–${FMT(e.end)}">${e.tier.replace('Challenger ','C')}</div></div></div>`})});
+ document.getElementById('gt').innerHTML=html;
+}
+document.getElementById('tabs').onclick=e=>{const b=e.target.closest('button');if(!b)return;
+ [...document.querySelectorAll('#tabs button')].forEach(x=>x.setAttribute('aria-selected',x===b));
+ ['cal','time','plan'].forEach(v=>document.getElementById('v-'+v).hidden=(v!==b.dataset.v));
+ if(b.dataset.v==='time')gantt()};
+
 let F={tour:'all',verdict:'all'};
 const FB=[['tour','all','All tours'],['tour','ATP','ATP'],['tour','WTA','WTA'],
           ['tour','ATP-CH','Challenger'],['tour','WTA-125','WTA 125'],['tour','ITF','ITF'],
@@ -152,8 +295,8 @@ document.getElementById('filters').innerHTML=FB.map(([g,v,l])=>
 document.getElementById('filters').onclick=e=>{const b=e.target.closest('button');if(!b)return;
  F[b.dataset.g]=b.dataset.v;
  [...document.querySelectorAll('#filters button')].forEach(x=>x.setAttribute('aria-pressed',F[x.dataset.g]===x.dataset.v));
- draw()};
-const pass=t=>t&&(F.tour==='all'||t.tour===F.tour)&&(F.verdict==='all'||t.verdict===F.verdict);
+ draw();months();if(!document.getElementById('v-time').hidden)gantt()};
+const pass=t=>t&&(F.tour==='all'||t.tour===F.tour)&&(F.verdict==='all'||!t.verdict||t.verdict===F.verdict);
 
 function card(t,lbl){
  if(!t)return `<div class="slot empty"><div class="lbl">${lbl}</div><div class="none">&mdash; nothing worth a slot</div></div>`;
@@ -185,7 +328,7 @@ function draw(){
     </tbody></table></details></div>`:''}</section>`}).join('')||
   '<p class="sub">Nothing matches that filter.</p>';
 }
-draw();
+draw();months();
 
 const all=[];D.weeks.forEach(w=>{[w.slot1,w.slot2,...(w.also_on||[])].forEach(t=>{if(t)all.push(t)})});
 const uniq=m=>{const s=new Set();return m.filter(t=>{const k=t.name+t.tour;if(s.has(k))return false;s.add(k);return true})};

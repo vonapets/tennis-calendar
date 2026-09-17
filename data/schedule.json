@@ -1096,7 +1096,7 @@
   "week_start": "2026-11-02",
   "week_end": "2026-11-08",
   "slot1": {
-   "name": "Charlottesville Challenger",
+   "name": "Charlottesville Men's Pro Challenger",
    "city": "Charlottesville, Virginia",
    "country": "United States",
    "tour": "ATP-CH",
@@ -1306,7 +1306,7 @@
    "note": "North American pick."
   },
   "slot2": {
-   "name": "WTA Finals",
+   "name": "WTA Finals Indian Wells",
    "city": "Indian Wells",
    "country": "United States",
    "tour": "WTA",
@@ -1590,7 +1590,7 @@
   "week_start": "2026-11-23",
   "week_end": "2026-11-29",
   "slot1": {
-   "name": "Florianopolis Challenger",
+   "name": "Florian\u00f3polis Challenger",
    "city": "Florianopolis",
    "country": "Brazil",
    "tour": "ATP-CH",
