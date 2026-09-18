@@ -1,5 +1,5 @@
 {
- "checked": "2026-09-18 11:13Z",
+ "checked": "2026-09-18 20:53Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -7,7 +7,33 @@
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "San Diego Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-09-21..2026-09-27"
+   },
+   {
+    "name": "De Wave Open Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-09-21..2026-09-27"
+   }
+  ],
+  "removed": [
+   {
+    "name": "Serving the Future Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-09-21..2026-09-27"
+   },
+   {
+    "name": "Genoa Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-09-21..2026-09-27"
+   }
+  ]
  }
 }
