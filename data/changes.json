@@ -1,5 +1,5 @@
 {
- "checked": "2026-09-25 11:49Z",
+ "checked": "2026-09-25 21:33Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -9,13 +9,13 @@
   "moved": [],
   "added": [
    {
-    "name": "CA Caniato",
+    "name": "Nicol\u00e1s Kicker",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-09-21..2026-09-27"
    },
    {
-    "name": "Andrew Paulson",
+    "name": "Jay Clarke",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-09-21..2026-09-27"
@@ -23,13 +23,13 @@
   ],
   "removed": [
    {
-    "name": "San Diego Challenger",
+    "name": "CA Caniato",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-09-21..2026-09-27"
    },
    {
-    "name": "Plovdiv Challenger IV",
+    "name": "N Kicker",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-09-21..2026-09-27"

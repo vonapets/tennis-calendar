@@ -52,19 +52,6 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "CA Caniato",
-  "city": "2026 Plovdiv Challenger IV",
-  "country": "Bulgaria",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-09-21",
-  "end": "2026-09-27",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Challenger de Buenos Aires",
   "city": "Buenos Aires",
   "country": "Argentina",
@@ -78,7 +65,20 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "N Kicker",
+  "name": "Jay Clarke",
+  "city": "2026 Plovdiv Challenger IV",
+  "country": "Bulgaria",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-09-21",
+  "end": "2026-09-27",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Nicol\u00e1s Kicker",
   "city": "2026 De Wave Open Challenger",
   "country": "Italy",
   "tour": "ATP-CH",
