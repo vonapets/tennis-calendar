@@ -39,6 +39,32 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "Andrew Paulson",
+  "city": "Bogdan Pavel",
+  "country": "United States",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-09-21",
+  "end": "2026-09-27",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "CA Caniato",
+  "city": "2026 Plovdiv Challenger IV",
+  "country": "Bulgaria",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-09-21",
+  "end": "2026-09-27",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Challenger de Buenos Aires",
   "city": "Buenos Aires",
   "country": "Argentina",
@@ -65,37 +91,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Plovdiv Challenger IV",
-  "city": "Plovdiv",
-  "country": "Bulgaria",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-09-21",
-  "end": "2026-09-27",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Saint-Tropez Open",
   "city": "Saint-Tropez",
   "country": "France",
   "tour": "ATP-CH",
   "tier": "Challenger 125",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-09-21",
-  "end": "2026-09-27",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "San Diego Challenger",
-  "city": "San Diego",
-  "country": "United States",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
   "surface": "Hard",
   "draw": 32,
   "start": "2026-09-21",
