@@ -1,5 +1,5 @@
 {
- "checked": "2026-09-25 21:33Z",
+ "checked": "2026-09-26 11:24Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -9,27 +9,63 @@
   "moved": [],
   "added": [
    {
-    "name": "Nicol\u00e1s Kicker",
+    "name": "Federico Zeballos",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-09-21..2026-09-27"
    },
    {
-    "name": "Jay Clarke",
+    "name": "Daniel Masur",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-09-21..2026-09-27"
+   },
+   {
+    "name": "Levante Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-09-28..2026-10-04"
+   },
+   {
+    "name": "Denys Molchanov",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-09-21..2026-09-27"
+   },
+   {
+    "name": "BNB Ningbo Open",
+    "tour": "WTA",
+    "tier": "WTA 500",
+    "now": "2026-10-19..2026-10-25"
    }
   ],
   "removed": [
    {
-    "name": "CA Caniato",
+    "name": "Challenger de Buenos Aires",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-09-21..2026-09-27"
    },
    {
-    "name": "N Kicker",
+    "name": "Bari Challlenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-09-28..2026-10-04"
+   },
+   {
+    "name": "Ningbo Open",
+    "tour": "WTA",
+    "tier": "WTA 500",
+    "was": "2026-10-19..2026-10-25"
+   },
+   {
+    "name": "Nicol\u00e1s Kicker",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-09-21..2026-09-27"
+   },
+   {
+    "name": "Jay Clarke",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-09-21..2026-09-27"

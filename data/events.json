@@ -52,8 +52,8 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Challenger de Buenos Aires",
-  "city": "Buenos Aires",
+  "name": "Daniel Masur",
+  "city": "Jakub Paul",
   "country": "Argentina",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
@@ -65,8 +65,8 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Jay Clarke",
-  "city": "2026 Plovdiv Challenger IV",
+  "name": "Denys Molchanov",
+  "city": "Patrik Niklas-Salminen",
   "country": "Bulgaria",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
@@ -78,8 +78,8 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Nicol\u00e1s Kicker",
-  "city": "2026 De Wave Open Challenger",
+  "name": "Federico Zeballos",
+  "city": "Mariano Kestelboim",
   "country": "Italy",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
@@ -119,7 +119,7 @@
  {
   "name": "Singapore Tennis Open presented by BNP Paribas",
   "city": "Singapore",
-  "country": "SIN",
+  "country": "SGP",
   "tour": "WTA",
   "tier": "WTA 500",
   "surface": "Hard",
@@ -195,19 +195,6 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Bari Challlenger",
-  "city": "Bari",
-  "country": "Italy",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-09-28",
-  "end": "2026-10-04",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Columbus Challenger",
   "city": "Columbus",
   "country": "Ohio",
@@ -240,6 +227,19 @@
   "tour": "ATP-CH",
   "tier": "Challenger 100",
   "surface": "Hard",
+  "draw": 32,
+  "start": "2026-09-28",
+  "end": "2026-10-04",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Levante Open",
+  "city": "Bari",
+  "country": "Italy",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Clay",
   "draw": 32,
   "start": "2026-09-28",
   "end": "2026-10-04",
@@ -637,6 +637,19 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
+  "name": "BNB Ningbo Open",
+  "city": "Ningbo",
+  "country": "CHN",
+  "tour": "WTA",
+  "tier": "WTA 500",
+  "surface": "Hard",
+  "draw": 28,
+  "start": "2026-10-19",
+  "end": "2026-10-25",
+  "precision": "exact",
+  "src": "api.wtatennis.com"
+ },
+ {
   "name": "Kinoshita Group Japan Open",
   "city": "Osaka",
   "country": "JPN",
@@ -644,19 +657,6 @@
   "tier": "WTA 250",
   "surface": "Hard",
   "draw": 32,
-  "start": "2026-10-19",
-  "end": "2026-10-25",
-  "precision": "exact",
-  "src": "api.wtatennis.com"
- },
- {
-  "name": "Ningbo Open",
-  "city": "Ningbo",
-  "country": "CHN",
-  "tour": "WTA",
-  "tier": "WTA 500",
-  "surface": "Hard",
-  "draw": 28,
   "start": "2026-10-19",
   "end": "2026-10-25",
   "precision": "exact",
