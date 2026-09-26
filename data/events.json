@@ -52,8 +52,8 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Daniel Masur",
-  "city": "Jakub Paul",
+  "name": "Constantin Bittoun Kouzmine",
+  "city": "Daniel Masur",
   "country": "Argentina",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
@@ -65,22 +65,9 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Denys Molchanov",
-  "city": "Patrik Niklas-Salminen",
+  "name": "Patrik Niklas-Salminen",
+  "city": "Michael Vrbensk\u00fd",
   "country": "Bulgaria",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-09-21",
-  "end": "2026-09-27",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Federico Zeballos",
-  "city": "Mariano Kestelboim",
-  "country": "Italy",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
   "surface": "Clay",
@@ -97,6 +84,19 @@
   "tour": "ATP-CH",
   "tier": "Challenger 125",
   "surface": "Hard",
+  "draw": 32,
+  "start": "2026-09-21",
+  "end": "2026-09-27",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Santiago Rodr\u00edguez Taverna",
+  "city": "Murkel Dellien",
+  "country": "Italy",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Clay",
   "draw": 32,
   "start": "2026-09-21",
   "end": "2026-09-27",
