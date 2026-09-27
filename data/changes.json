@@ -1,5 +1,5 @@
 {
- "checked": "2026-09-26 21:08Z",
+ "checked": "2026-09-27 12:01Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -7,45 +7,7 @@
  },
  "changes": {
   "moved": [],
-  "added": [
-   {
-    "name": "Patrik Niklas-Salminen",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-09-21..2026-09-27"
-   },
-   {
-    "name": "Constantin Bittoun Kouzmine",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-09-21..2026-09-27"
-   },
-   {
-    "name": "Santiago Rodr\u00edguez Taverna",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-09-21..2026-09-27"
-   }
-  ],
-  "removed": [
-   {
-    "name": "Denys Molchanov",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-09-21..2026-09-27"
-   },
-   {
-    "name": "Daniel Masur",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-09-21..2026-09-27"
-   },
-   {
-    "name": "Federico Zeballos",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-09-21..2026-09-27"
-   }
-  ]
+  "added": [],
+  "removed": []
  }
 }
