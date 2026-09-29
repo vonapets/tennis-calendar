@@ -1,5 +1,5 @@
 {
- "checked": "2026-09-29 12:51Z",
+ "checked": "2026-09-29 22:13Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -7,45 +7,7 @@
  },
  "changes": {
   "moved": [],
-  "added": [
-   {
-    "name": "Guanzate Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-12-14..2026-12-20"
-   },
-   {
-    "name": "La Paz Challenger II",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-12-14..2026-12-20"
-   },
-   {
-    "name": "Taranto Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Internazionali di Sicilia",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-10-05..2026-10-11"
-   },
-   {
-    "name": "Nova Lima Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-12-14..2026-12-20"
-   }
-  ],
-  "removed": [
-   {
-    "name": "Palermo Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-10-05..2026-10-11"
-   }
-  ]
+  "added": [],
+  "removed": []
  }
 }
