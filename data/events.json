@@ -351,7 +351,7 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Palermo Challenger",
+  "name": "Internazionali di Sicilia",
   "city": "Palermo",
   "country": "Italy",
   "tour": "ATP-CH",
@@ -903,6 +903,19 @@
   "tour": "ATP-CH",
   "tier": "Challenger 100",
   "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Taranto Challenger",
+  "city": "Taranto",
+  "country": "Italy",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard",
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
@@ -1480,6 +1493,45 @@
   "end": "2026-12-15",
   "precision": "week",
   "src": "wikipedia:2026 ATP Tour"
+ },
+ {
+  "name": "Guanzate Challenger",
+  "city": "Guanzate",
+  "country": "Italy",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-12-14",
+  "end": "2026-12-20",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "La Paz Challenger II",
+  "city": "La Paz",
+  "country": "Bolivia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-12-14",
+  "end": "2026-12-20",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Nova Lima Challenger",
+  "city": "Nova Lima",
+  "country": "Brazil",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-12-14",
+  "end": "2026-12-20",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Open BLS de Limoges",
