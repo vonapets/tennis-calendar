@@ -1,5 +1,5 @@
 {
- "checked": "2026-09-30 22:14Z",
+ "checked": "2026-10-01 13:12Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -7,21 +7,7 @@
  },
  "changes": {
   "moved": [],
-  "added": [
-   {
-    "name": "T Barrios Vera",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-09-28..2026-10-04"
-   }
-  ],
-  "removed": [
-   {
-    "name": "Open de Vend\u00e9e",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-09-28..2026-10-04"
-   }
-  ]
+  "added": [],
+  "removed": []
  }
 }
