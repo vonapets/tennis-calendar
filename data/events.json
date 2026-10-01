@@ -208,11 +208,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Curitiba Challenger",
-  "city": "Curitiba",
-  "country": "Brazil",
+  "name": "F Balshaw",
+  "city": "2026 Levante Open",
+  "country": "Italy",
   "tour": "ATP-CH",
-  "tier": "Challenger 75",
+  "tier": "Challenger 50",
   "surface": "Clay",
   "draw": 32,
   "start": "2026-09-28",
@@ -234,11 +234,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Levante Open",
-  "city": "Bari",
-  "country": "Italy",
+  "name": "K Smith",
+  "city": "2026 Curitiba Challenger",
+  "country": "Brazil",
   "tour": "ATP-CH",
-  "tier": "Challenger 50",
+  "tier": "Challenger 75",
   "surface": "Clay",
   "draw": 32,
   "start": "2026-09-28",
