@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-01 22:39Z",
+ "checked": "2026-10-02 12:33Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -9,27 +9,27 @@
   "moved": [],
   "added": [
    {
-    "name": "K Smith",
+    "name": "Finn Bass",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
+    "tier": "Challenger 50",
     "now": "2026-09-28..2026-10-04"
    },
    {
-    "name": "F Balshaw",
+    "name": "Gonzalo Escobar",
     "tour": "ATP-CH",
-    "tier": "Challenger 50",
+    "tier": "Challenger 75",
     "now": "2026-09-28..2026-10-04"
    }
   ],
   "removed": [
    {
-    "name": "Curitiba Challenger",
+    "name": "Columbus Challenger",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-09-28..2026-10-04"
    },
    {
-    "name": "Levante Open",
+    "name": "F Balshaw",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-09-28..2026-10-04"
