@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-02 12:33Z",
+ "checked": "2026-10-02 22:12Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -9,13 +9,13 @@
   "moved": [],
   "added": [
    {
-    "name": "Finn Bass",
+    "name": "Matheus Pucinelli de Almeida",
     "tour": "ATP-CH",
-    "tier": "Challenger 50",
+    "tier": "Challenger 75",
     "now": "2026-09-28..2026-10-04"
    },
    {
-    "name": "Gonzalo Escobar",
+    "name": "Keegan Smith",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-09-28..2026-10-04"
@@ -23,15 +23,15 @@
   ],
   "removed": [
    {
-    "name": "Columbus Challenger",
+    "name": "T Barrios Vera",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-09-28..2026-10-04"
    },
    {
-    "name": "F Balshaw",
+    "name": "K Smith",
     "tour": "ATP-CH",
-    "tier": "Challenger 50",
+    "tier": "Challenger 75",
     "was": "2026-09-28..2026-10-04"
    }
   ]
