@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-02 22:12Z",
+ "checked": "2026-10-03 11:38Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -9,29 +9,65 @@
   "moved": [],
   "added": [
    {
-    "name": "Matheus Pucinelli de Almeida",
+    "name": "Miguel \u00c1ngel Reyes-Varela",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-09-28..2026-10-04"
    },
    {
-    "name": "Keegan Smith",
+    "name": "Alexander Donski",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "now": "2026-09-28..2026-10-04"
+   },
+   {
+    "name": "Braden Shick",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-09-28..2026-10-04"
+   },
+   {
+    "name": "Marcelo Zormann",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-09-28..2026-10-04"
+   },
+   {
+    "name": "Ferrero Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "now": "2026-10-05..2026-10-11"
    }
   ],
   "removed": [
    {
-    "name": "T Barrios Vera",
+    "name": "Gonzalo Escobar",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-09-28..2026-10-04"
    },
    {
-    "name": "K Smith",
+    "name": "Keegan Smith",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
+    "was": "2026-09-28..2026-10-04"
+   },
+   {
+    "name": "Villena Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "was": "2026-10-05..2026-10-11"
+   },
+   {
+    "name": "Matheus Pucinelli de Almeida",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-09-28..2026-10-04"
+   },
+   {
+    "name": "Jingshan Tennis Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
     "was": "2026-09-28..2026-10-04"
    }
   ]
