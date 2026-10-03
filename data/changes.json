@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-03 11:38Z",
+ "checked": "2026-10-03 21:12Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 15 tournaments",
@@ -9,65 +9,41 @@
   "moved": [],
   "added": [
    {
-    "name": "Miguel \u00c1ngel Reyes-Varela",
+    "name": "Mili Polji\u010dak",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "now": "2026-09-28..2026-10-04"
+   },
+   {
+    "name": "Joshua Sheehy",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-09-28..2026-10-04"
+   },
+   {
+    "name": "Nikita Samuel Filin",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-09-28..2026-10-04"
-   },
+   }
+  ],
+  "removed": [
    {
     "name": "Alexander Donski",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
-    "now": "2026-09-28..2026-10-04"
+    "was": "2026-09-28..2026-10-04"
    },
    {
     "name": "Braden Shick",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
-    "now": "2026-09-28..2026-10-04"
-   },
-   {
-    "name": "Marcelo Zormann",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-09-28..2026-10-04"
-   },
-   {
-    "name": "Ferrero Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "now": "2026-10-05..2026-10-11"
-   }
-  ],
-  "removed": [
-   {
-    "name": "Gonzalo Escobar",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
     "was": "2026-09-28..2026-10-04"
    },
    {
-    "name": "Keegan Smith",
+    "name": "Finn Bass",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-09-28..2026-10-04"
-   },
-   {
-    "name": "Villena Open",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "was": "2026-10-05..2026-10-11"
-   },
-   {
-    "name": "Matheus Pucinelli de Almeida",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-09-28..2026-10-04"
-   },
-   {
-    "name": "Jingshan Tennis Open",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
+    "tier": "Challenger 50",
     "was": "2026-09-28..2026-10-04"
    }
   ]
