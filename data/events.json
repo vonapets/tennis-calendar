@@ -572,6 +572,19 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+  "city": "Lyon",
+  "country": "France",
+  "tour": "ATP",
+  "tier": "ATP 250",
+  "surface": "Hard (i)",
+  "draw": 28,
+  "start": "2026-10-19",
+  "end": "2026-10-25",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Tour"
+ },
+ {
   "name": "Cali Open",
   "city": "Cali",
   "country": "Colombia",

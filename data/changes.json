@@ -1,27 +1,20 @@
 {
- "checked": "2026-10-04 12:22Z",
+ "checked": "2026-10-04 21:22Z",
  "sources": {
   "wta": "ok - 34 tournaments",
-  "atp": "ok - 15 tournaments",
+  "atp": "ok - 16 tournaments",
   "challenger": "ok - 70 tournaments"
  },
  "changes": {
   "moved": [],
   "added": [
    {
-    "name": "Guto Miguel",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-09-28..2026-10-04"
+    "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+    "tour": "ATP",
+    "tier": "ATP 250",
+    "now": "2026-10-19..2026-10-25"
    }
   ],
-  "removed": [
-   {
-    "name": "Marcelo Zormann",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-09-28..2026-10-04"
-   }
-  ]
+  "removed": []
  }
 }
