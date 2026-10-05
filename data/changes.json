@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-04 21:22Z",
+ "checked": "2026-10-05 14:36Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,14 +7,7 @@
  },
  "changes": {
   "moved": [],
-  "added": [
-   {
-    "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
-    "tour": "ATP",
-    "tier": "ATP 250",
-    "now": "2026-10-19..2026-10-25"
-   }
-  ],
+  "added": [],
   "removed": []
  }
 }
