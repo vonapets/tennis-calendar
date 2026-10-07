@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-06 22:39Z",
+ "checked": "2026-10-07 13:21Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,21 +7,7 @@
  },
  "changes": {
   "moved": [],
-  "added": [
-   {
-    "name": "Dongfeng \u00b7 Voyah Wuhan Open",
-    "tour": "WTA",
-    "tier": "WTA 1000",
-    "now": "2026-10-12..2026-10-18"
-   }
-  ],
-  "removed": [
-   {
-    "name": "Wuhan Open",
-    "tour": "WTA",
-    "tier": "WTA 1000",
-    "was": "2026-10-12..2026-10-18"
-   }
-  ]
+  "added": [],
+  "removed": []
  }
 }
