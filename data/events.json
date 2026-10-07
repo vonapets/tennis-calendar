@@ -338,19 +338,6 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Braga Open",
-  "city": "Braga",
-  "country": "Portugal",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-10-05",
-  "end": "2026-10-11",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Ferrero Challenger",
   "city": "Villena",
   "country": "Spain",
@@ -369,6 +356,19 @@
   "country": "Italy",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-10-05",
+  "end": "2026-10-11",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "JL Reis da Silva",
+  "city": "2026 Braga Open",
+  "country": "Portugal",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
   "surface": "Clay",
   "draw": 32,
   "start": "2026-10-05",
