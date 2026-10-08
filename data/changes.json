@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-07 23:03Z",
+ "checked": "2026-10-08 13:27Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -9,17 +9,17 @@
   "moved": [],
   "added": [
    {
-    "name": "JL Reis da Silva",
+    "name": "M Alcal\u00e1 Gurri",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
+    "tier": "Challenger 50",
     "now": "2026-10-05..2026-10-11"
    }
   ],
   "removed": [
    {
-    "name": "Braga Open",
+    "name": "Internazionali di Sicilia",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
+    "tier": "Challenger 50",
     "was": "2026-10-05..2026-10-11"
    }
   ]

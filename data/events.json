@@ -351,11 +351,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Internazionali di Sicilia",
-  "city": "Palermo",
-  "country": "Italy",
+  "name": "JL Reis da Silva",
+  "city": "2026 Braga Open",
+  "country": "Portugal",
   "tour": "ATP-CH",
-  "tier": "Challenger 50",
+  "tier": "Challenger 75",
   "surface": "Clay",
   "draw": 32,
   "start": "2026-10-05",
@@ -364,11 +364,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "JL Reis da Silva",
-  "city": "2026 Braga Open",
-  "country": "Portugal",
+  "name": "M Alcal\u00e1 Gurri",
+  "city": "2026 Internazionali di Sicilia",
+  "country": "Italy",
   "tour": "ATP-CH",
-  "tier": "Challenger 75",
+  "tier": "Challenger 50",
   "surface": "Clay",
   "draw": 32,
   "start": "2026-10-05",
