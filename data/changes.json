@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-09 13:15Z",
+ "checked": "2026-10-09 22:36Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -9,13 +9,31 @@
   "moved": [],
   "added": [
    {
-    "name": "H Barto\u0148",
+    "name": "Takeru Yuzuki",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-10-05..2026-10-11"
    },
    {
-    "name": "C S\u00e1nchez Jover",
+    "name": "Eduardo Ribeiro",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-10-05..2026-10-11"
+   },
+   {
+    "name": "Max Alcal\u00e1 Gurri",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-10-05..2026-10-11"
+   },
+   {
+    "name": "Trofeo Citt\u00e0 di San Gregorio",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-10-12..2026-10-18"
+   },
+   {
+    "name": "Max Wiskandt",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-10-05..2026-10-11"
@@ -23,13 +41,31 @@
   ],
   "removed": [
    {
-    "name": "Wuning Challenger III",
+    "name": "M Alcal\u00e1 Gurri",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-10-05..2026-10-11"
    },
    {
-    "name": "Antofagasta Challenger",
+    "name": "JL Reis da Silva",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-10-05..2026-10-11"
+   },
+   {
+    "name": "Catania Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-10-12..2026-10-18"
+   },
+   {
+    "name": "C S\u00e1nchez Jover",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-10-05..2026-10-11"
+   },
+   {
+    "name": "H Barto\u0148",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-10-05..2026-10-11"
