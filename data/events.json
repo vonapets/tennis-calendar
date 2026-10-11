@@ -351,12 +351,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Max Alcal\u00e1 Gurri",
-  "city": "2026 Internazionali di Sicilia",
-  "country": "Italy",
+  "name": "Kai Wehnelt",
+  "city": "Jon\u00e1\u0161 Forejtek",
+  "country": "China",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
-  "surface": "Clay",
+  "surface": "Hard",
   "draw": 32,
   "start": "2026-10-05",
   "end": "2026-10-11",
@@ -364,12 +364,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Max Wiskandt",
-  "city": "Oleksandr Ovcharenko",
-  "country": "China",
+  "name": "Mario Mansilla D\u00edez",
+  "city": "Karol Drzewiecki",
+  "country": "Italy",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
-  "surface": "Hard",
+  "surface": "Clay",
   "draw": 32,
   "start": "2026-10-05",
   "end": "2026-10-11",
@@ -1326,6 +1326,19 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
+  "name": "San Salvador Challenger",
+  "city": "San Salvador",
+  "country": "El Salvador",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "IEB+ Argentina Open",
   "city": "Buenos Aires",
   "country": "ARG",
@@ -1482,6 +1495,19 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
+  "name": "Nonthaburi Challenger III",
+  "city": "Nonthaburi",
+  "country": "Thailand",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-12-07",
+  "end": "2026-12-13",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Rio de Janeiro Challenger",
   "city": "Rio de Janeiro",
   "country": "Brazil",
@@ -1506,6 +1532,19 @@
   "end": "2026-12-15",
   "precision": "week",
   "src": "wikipedia:2026 ATP Tour"
+ },
+ {
+  "name": "Aberto Santa Catarina de Tenis",
+  "city": "Blumenau",
+  "country": "Brazil",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-12-14",
+  "end": "2026-12-20",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
   "name": "Guanzate Challenger",
@@ -1534,12 +1573,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Nova Lima Challenger",
-  "city": "Nova Lima",
-  "country": "Brazil",
+  "name": "Nonthaburi Challenger IV",
+  "city": "Nonthaburi",
+  "country": "Thailand",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
-  "surface": "Clay",
+  "surface": "Hard",
   "draw": 32,
   "start": "2026-12-14",
   "end": "2026-12-20",

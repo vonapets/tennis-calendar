@@ -1,13 +1,69 @@
 {
- "checked": "2026-10-10 21:41Z",
+ "checked": "2026-10-11 12:48Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
-  "challenger": "ok - 70 tournaments"
+  "challenger": "ok - 73 tournaments"
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "Kai Wehnelt",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-10-05..2026-10-11"
+   },
+   {
+    "name": "Aberto Santa Catarina de Tenis",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-12-14..2026-12-20"
+   },
+   {
+    "name": "Nonthaburi Challenger III",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-12-07..2026-12-13"
+   },
+   {
+    "name": "San Salvador Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "Nonthaburi Challenger IV",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-12-14..2026-12-20"
+   },
+   {
+    "name": "Mario Mansilla D\u00edez",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-10-05..2026-10-11"
+   }
+  ],
+  "removed": [
+   {
+    "name": "Max Wiskandt",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-10-05..2026-10-11"
+   },
+   {
+    "name": "Nova Lima Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-12-14..2026-12-20"
+   },
+   {
+    "name": "Max Alcal\u00e1 Gurri",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-10-05..2026-10-11"
+   }
+  ]
  }
 }
