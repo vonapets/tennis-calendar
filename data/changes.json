@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-14 21:39Z",
+ "checked": "2026-10-15 11:27Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,7 +7,45 @@
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "L Draxl",
+    "tour": "ATP-CH",
+    "tier": "Challenger 125",
+    "now": "2026-10-12..2026-10-18"
+   },
+   {
+    "name": "L Mikrut",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "now": "2026-10-12..2026-10-18"
+   },
+   {
+    "name": "H Dellien",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-10-12..2026-10-18"
+   }
+  ],
+  "removed": [
+   {
+    "name": "Open de Roanne",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "was": "2026-10-12..2026-10-18"
+   },
+   {
+    "name": "Trofeo Citt\u00e0 di San Gregorio",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-10-12..2026-10-18"
+   },
+   {
+    "name": "Olbia Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 125",
+    "was": "2026-10-12..2026-10-18"
+   }
+  ]
  }
 }
