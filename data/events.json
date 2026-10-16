@@ -416,12 +416,12 @@
   "src": "api.wtatennis.com"
  },
  {
-  "name": "H Dellien",
-  "city": "2026 Trofeo Citt\u00e0 di San Gregorio",
+  "name": "Jay Friend",
+  "city": "Ray Ho",
   "country": "Italy",
   "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Clay",
+  "tier": "Challenger 125",
+  "surface": "Hard",
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
@@ -442,20 +442,7 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "L Draxl",
-  "city": "2026 Olbia Challenger",
-  "country": "Italy",
-  "tour": "ATP-CH",
-  "tier": "Challenger 125",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-10-12",
-  "end": "2026-10-18",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "L Mikrut",
+  "name": "Luka Mikrut",
   "city": "2026 Open de Roanne",
   "country": "France",
   "tour": "ATP-CH",
@@ -468,8 +455,21 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Maia Challenger",
-  "city": "Maia",
+  "name": "Santa Cruz Challenger II",
+  "city": "Santa Cruz de la Sierra",
+  "country": "Bolivia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Tom Gentzsch",
+  "city": "2026 Maia Challenger",
   "country": "Portugal",
   "tour": "ATP-CH",
   "tier": "Challenger 100",
@@ -481,11 +481,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Santa Cruz Challenger II",
-  "city": "Santa Cruz de la Sierra",
-  "country": "Bolivia",
+  "name": "Trofeo Citt\u00e0 di San Gregorio",
+  "city": "Catania",
+  "country": "Italy",
   "tour": "ATP-CH",
-  "tier": "Challenger 75",
+  "tier": "Challenger 50",
   "surface": "Clay",
   "draw": 32,
   "start": "2026-10-12",
