@@ -1,73 +1,51 @@
 {
- "checked": "2026-10-17 10:42Z",
+ "checked": "2026-10-17 20:34Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 73 tournaments"
  },
  "changes": {
-  "moved": [],
+  "moved": [
+   {
+    "name": "Andrew Paulson",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "was": "2026-09-21..2026-09-27",
+    "now": "2026-10-12..2026-10-18"
+   }
+  ],
   "added": [
    {
-    "name": "Mariano Kestelboim",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-10-12..2026-10-18"
-   },
-   {
-    "name": "Benjam\u00edn Winter L\u00f3pez",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "now": "2026-10-12..2026-10-18"
-   },
-   {
-    "name": "Fernando Romboli",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "now": "2026-10-12..2026-10-18"
-   },
-   {
-    "name": "Romain Arneodo",
+    "name": "Marcus Willis",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-10-12..2026-10-18"
    },
    {
-    "name": "Ray Ho",
+    "name": "Joran Vliegen",
     "tour": "ATP-CH",
-    "tier": "Challenger 125",
+    "tier": "Challenger 100",
     "now": "2026-10-12..2026-10-18"
    }
   ],
   "removed": [
    {
-    "name": "Jay Friend",
+    "name": "Benjam\u00edn Winter L\u00f3pez",
     "tour": "ATP-CH",
-    "tier": "Challenger 125",
+    "tier": "Challenger 100",
     "was": "2026-10-12..2026-10-18"
    },
    {
-    "name": "Santa Cruz Challenger II",
+    "name": "Fernando Romboli",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "was": "2026-10-12..2026-10-18"
+   },
+   {
+    "name": "Romain Arneodo",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
-    "was": "2026-10-12..2026-10-18"
-   },
-   {
-    "name": "Tom Gentzsch",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "was": "2026-10-12..2026-10-18"
-   },
-   {
-    "name": "Trofeo Citt\u00e0 di San Gregorio",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-10-12..2026-10-18"
-   },
-   {
-    "name": "Luka Mikrut",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
     "was": "2026-10-12..2026-10-18"
    }
   ]
