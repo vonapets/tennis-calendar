@@ -429,6 +429,19 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
+  "name": "Guto Miguel",
+  "city": "Eduardo Ribeiro (tennis)",
+  "country": "Italy",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Jinan Open",
   "city": "Jinan",
   "country": "China",
@@ -460,19 +473,6 @@
   "country": "Bolivia",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-10-12",
-  "end": "2026-10-18",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Mariano Kestelboim",
-  "city": "Guto Miguel",
-  "country": "Italy",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
   "surface": "Clay",
   "draw": 32,
   "start": "2026-10-12",
