@@ -429,6 +429,19 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
+  "name": "David Stevenson",
+  "city": "Marcus Willis",
+  "country": "Bolivia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Guto Miguel",
   "city": "Eduardo Ribeiro (tennis)",
   "country": "Italy",
@@ -461,19 +474,6 @@
   "tour": "ATP-CH",
   "tier": "Challenger 100",
   "surface": "Clay (i)",
-  "draw": 32,
-  "start": "2026-10-12",
-  "end": "2026-10-18",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Marcus Willis",
-  "city": "Romain Arneodo",
-  "country": "Bolivia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Clay",
   "draw": 32,
   "start": "2026-10-12",
   "end": "2026-10-18",
