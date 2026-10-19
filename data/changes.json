@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-18 20:39Z",
+ "checked": "2026-10-19 13:12Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,21 +7,7 @@
  },
  "changes": {
   "moved": [],
-  "added": [
-   {
-    "name": "David Stevenson",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-10-12..2026-10-18"
-   }
-  ],
-  "removed": [
-   {
-    "name": "Marcus Willis",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-10-12..2026-10-18"
-   }
-  ]
+  "added": [],
+  "removed": []
  }
 }
