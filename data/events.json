@@ -585,19 +585,6 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Florence Challenger",
-  "city": "Florence",
-  "country": "Italy",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-10-19",
-  "end": "2026-10-25",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Fort Worth Challenger",
   "city": "Fort Worth",
   "country": "Texas",
@@ -629,6 +616,19 @@
   "country": "Colombia",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-10-19",
+  "end": "2026-10-25",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "J Cui",
+  "city": "2026 Florence Challenger",
+  "country": "Italy",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
   "surface": "Clay",
   "draw": 32,
   "start": "2026-10-19",
