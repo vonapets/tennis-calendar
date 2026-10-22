@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-21 21:40Z",
+ "checked": "2026-10-22 11:50Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,7 +7,21 @@
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "H Rocha",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-10-19..2026-10-25"
+   }
+  ],
+  "removed": [
+   {
+    "name": "Cali Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-10-19..2026-10-25"
+   }
+  ]
  }
 }
