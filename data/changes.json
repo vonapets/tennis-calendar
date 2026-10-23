@@ -1,23 +1,47 @@
 {
- "checked": "2026-10-22 21:33Z",
+ "checked": "2026-10-23 11:37Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
-  "challenger": "ok - 73 tournaments"
+  "challenger": "ok - 75 tournaments"
  },
  "changes": {
   "moved": [],
   "added": [
    {
-    "name": "J Cui",
+    "name": "Ankara Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "Ningbo Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-10-26..2026-11-01"
+   },
+   {
+    "name": "Hsu Yu-hsiou",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-10-19..2026-10-25"
+   },
+   {
+    "name": "Trnava Challenger II",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-12-07..2026-12-13"
    }
   ],
   "removed": [
    {
-    "name": "Florence Challenger",
+    "name": "Ningbo Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-10-26..2026-11-01"
+   },
+   {
+    "name": "J Cui",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-10-19..2026-10-25"

@@ -624,8 +624,8 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "J Cui",
-  "city": "2026 Florence Challenger",
+  "name": "Hsu Yu-hsiou",
+  "city": "Sun Fajing",
   "country": "Italy",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
@@ -741,7 +741,7 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Ningbo Open",
+  "name": "Ningbo Challenger",
   "city": "Ningbo",
   "country": "China",
   "tour": "ATP-CH",
@@ -1261,6 +1261,19 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "Ankara Challenger",
+  "city": "Ankara",
+  "country": "Turkey",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "City of Playford Tennis International",
   "city": "City of Playford",
   "country": "Australia",
@@ -1514,6 +1527,19 @@
   "tour": "ATP-CH",
   "tier": "Challenger 50",
   "surface": "Clay",
+  "draw": 32,
+  "start": "2026-12-07",
+  "end": "2026-12-13",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Trnava Challenger II",
+  "city": "Trnava",
+  "country": "Slovakia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-12-07",
   "end": "2026-12-13",
