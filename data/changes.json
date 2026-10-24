@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-24 10:58Z",
+ "checked": "2026-10-24 20:46Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -9,41 +9,17 @@
   "moved": [],
   "added": [
    {
-    "name": "Shunsuke Mitsui",
+    "name": "Kaito Uesugi",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-10-19..2026-10-25"
-   },
-   {
-    "name": "Piotr Matuszewski",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-10-19..2026-10-25"
-   },
-   {
-    "name": "Rodrigo Pacheco M\u00e9ndez",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
+    "tier": "Challenger 50",
     "now": "2026-10-19..2026-10-25"
    }
   ],
   "removed": [
    {
-    "name": "Fort Worth Challenger",
+    "name": "Hsu Yu-hsiou",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-10-19..2026-10-25"
-   },
-   {
-    "name": "Henrique Rocha",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-10-19..2026-10-25"
-   },
-   {
-    "name": "Guangzhou International Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
+    "tier": "Challenger 50",
     "was": "2026-10-19..2026-10-25"
    }
   ]
