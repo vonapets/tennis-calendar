@@ -585,6 +585,19 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "Benjam\u00edn Winter L\u00f3pez",
+  "city": "Karol Drzewiecki",
+  "country": "Colombia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-10-19",
+  "end": "2026-10-25",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Kaito Uesugi",
   "city": "Hsu Yu-hsiou",
   "country": "Italy",
@@ -603,19 +616,6 @@
   "country": "Portugal",
   "tour": "ATP-CH",
   "tier": "Challenger 100",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-10-19",
-  "end": "2026-10-25",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Piotr Matuszewski",
-  "city": "Tiago Pereira (tennis)",
-  "country": "Colombia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
   "surface": "Clay",
   "draw": 32,
   "start": "2026-10-19",

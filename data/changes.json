@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-24 20:46Z",
+ "checked": "2026-10-25 11:26Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -9,17 +9,17 @@
   "moved": [],
   "added": [
    {
-    "name": "Kaito Uesugi",
+    "name": "Benjam\u00edn Winter L\u00f3pez",
     "tour": "ATP-CH",
-    "tier": "Challenger 50",
+    "tier": "Challenger 75",
     "now": "2026-10-19..2026-10-25"
    }
   ],
   "removed": [
    {
-    "name": "Hsu Yu-hsiou",
+    "name": "Piotr Matuszewski",
     "tour": "ATP-CH",
-    "tier": "Challenger 50",
+    "tier": "Challenger 75",
     "was": "2026-10-19..2026-10-25"
    }
   ]
