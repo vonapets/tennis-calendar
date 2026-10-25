@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25 11:26Z",
+ "checked": "2026-10-25 20:48Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -9,7 +9,7 @@
   "moved": [],
   "added": [
    {
-    "name": "Benjam\u00edn Winter L\u00f3pez",
+    "name": "Alan Magad\u00e1n",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-10-19..2026-10-25"
@@ -17,7 +17,7 @@
   ],
   "removed": [
    {
-    "name": "Piotr Matuszewski",
+    "name": "Rodrigo Pacheco M\u00e9ndez",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-10-19..2026-10-25"

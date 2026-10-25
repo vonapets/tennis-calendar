@@ -585,6 +585,19 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "Alan Magad\u00e1n",
+  "city": "Rodrigo Pacheco M\u00e9ndez",
+  "country": "Texas",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-10-19",
+  "end": "2026-10-25",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Benjam\u00edn Winter L\u00f3pez",
   "city": "Karol Drzewiecki",
   "country": "Colombia",
@@ -617,19 +630,6 @@
   "tour": "ATP-CH",
   "tier": "Challenger 100",
   "surface": "Clay",
-  "draw": 32,
-  "start": "2026-10-19",
-  "end": "2026-10-25",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Rodrigo Pacheco M\u00e9ndez",
-  "city": "Federico Zeballos",
-  "country": "Texas",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Hard",
   "draw": 32,
   "start": "2026-10-19",
   "end": "2026-10-25",
