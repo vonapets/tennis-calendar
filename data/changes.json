@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-26 13:00Z",
+ "checked": "2026-10-26 22:38Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,45 +7,7 @@
  },
  "changes": {
   "moved": [],
-  "added": [
-   {
-    "name": "Reto Win Tennis Cali Open",
-    "tour": "WTA-125",
-    "tier": "WTA 125",
-    "now": "2026-11-02..2026-11-07"
-   },
-   {
-    "name": "DIRECTV Open Presentado por Compesar",
-    "tour": "WTA-125",
-    "tier": "WTA 125",
-    "now": "2026-11-09..2026-11-14"
-   },
-   {
-    "name": "FAGE WTA Finals Indian Wells",
-    "tour": "WTA",
-    "tier": "Finals",
-    "now": "2026-11-08..2026-11-15"
-   }
-  ],
-  "removed": [
-   {
-    "name": "Cali Open",
-    "tour": "WTA-125",
-    "tier": "WTA 125",
-    "was": "2026-11-02..2026-11-07"
-   },
-   {
-    "name": "WTA Finals Indian Wells",
-    "tour": "WTA",
-    "tier": "Finals",
-    "was": "2026-11-08..2026-11-15"
-   },
-   {
-    "name": "Cundinamarca Open",
-    "tour": "WTA-125",
-    "tier": "WTA 125",
-    "was": "2026-11-09..2026-11-14"
-   }
-  ]
+  "added": [],
+  "removed": []
  }
 }
