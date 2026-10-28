@@ -715,19 +715,6 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Brest Challenger",
-  "city": "Brest",
-  "country": "France",
-  "tour": "ATP-CH",
-  "tier": "Challenger 100",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-10-26",
-  "end": "2026-11-01",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Challenger Ciudad de Guayaquil",
   "city": "Guayaquil",
   "country": "Ecuador",
@@ -770,6 +757,19 @@
   "name": "Sioux Falls Challenger",
   "city": "Sioux Falls",
   "country": "South Dakota",
+  "tour": "ATP-CH",
+  "tier": "Challenger 100",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-10-26",
+  "end": "2026-11-01",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Y-s Chung",
+  "city": "2026 Brest Challenger",
+  "country": "France",
   "tour": "ATP-CH",
   "tier": "Challenger 100",
   "surface": "Hard (i)",

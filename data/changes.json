@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-27 22:11Z",
+ "checked": "2026-10-28 12:52Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,7 +7,21 @@
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "Y-s Chung",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "now": "2026-10-26..2026-11-01"
+   }
+  ],
+  "removed": [
+   {
+    "name": "Brest Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "was": "2026-10-26..2026-11-01"
+   }
+  ]
  }
 }
