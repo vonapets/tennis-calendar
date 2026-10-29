@@ -19,10 +19,10 @@
     "250_WTA": 9544818
   },
   "kalshi_medians": {
-    "tour_level": 91804800,
+    "tour_level": 93219834,
     "atp_challenger": 39857833,
     "wta_125": 35201067,
-    "itf": 10746560,
+    "itf": 10832913,
     "na_challenger": 83857304,
     "non_na_challenger": 35243243
   },
@@ -54,8 +54,8 @@
     "none": "never listed anywhere - the number is a regional prior, not a measurement"
   },
   "polymarket_live": {
-    "open_events": 293,
-    "open_moneyline_volume": 2133214,
+    "open_events": 226,
+    "open_moneyline_volume": 2345788,
     "pulled": "2026-10-29"
   },
   "sub_tour_per_match": {
@@ -166,24 +166,24 @@
   },
   "kalshi_detail": {
     "tour_level": {
-      "total": 3985688021,
+      "total": 4040735263,
       "tournaments": 27,
-      "median": 91804800
+      "median": 93219834
     },
     "atp_challenger": {
-      "total": 2506011400,
+      "total": 2519191554,
       "tournaments": 55,
       "median": 39857833
     },
     "wta_125": {
-      "total": 744483434,
+      "total": 755417406,
       "tournaments": 20,
       "median": 35201067
     },
     "itf": {
-      "total": 2900120846,
+      "total": 2927067797,
       "tournaments": 205,
-      "median": 10746560
+      "median": 10832913
     }
   }
 }
