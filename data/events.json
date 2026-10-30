@@ -715,19 +715,6 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Challenger Ciudad de Guayaquil",
-  "city": "Guayaquil",
-  "country": "Ecuador",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-10-26",
-  "end": "2026-11-01",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Finn Reynolds",
   "city": "James Watt (tennis)",
   "country": "France",
@@ -741,8 +728,34 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "H Dellien",
-  "city": "2026 Ningbo Challenger",
+  "name": "Gonzalo Escobar",
+  "city": "Niki Kaliyanda Poonacha",
+  "country": "South Dakota",
+  "tour": "ATP-CH",
+  "tier": "Challenger 100",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-10-26",
+  "end": "2026-11-01",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Joran Vliegen",
+  "city": "Miguel \u00c1ngel Reyes-Varela",
+  "country": "Ecuador",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-10-26",
+  "end": "2026-11-01",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Ningbo Challenger",
+  "city": "Ningbo",
   "country": "China",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
@@ -760,19 +773,6 @@
   "tour": "ATP-CH",
   "tier": "Challenger 125",
   "surface": "Hard",
-  "draw": 32,
-  "start": "2026-10-26",
-  "end": "2026-11-01",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Sioux Falls Challenger",
-  "city": "Sioux Falls",
-  "country": "South Dakota",
-  "tour": "ATP-CH",
-  "tier": "Challenger 100",
-  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",

@@ -1,25 +1,51 @@
 {
- "checked": "2026-10-30 12:53Z",
+ "checked": "2026-10-30 22:16Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [],
+  "moved": [
+   {
+    "name": "Joran Vliegen",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-10-12..2026-10-18",
+    "now": "2026-10-26..2026-11-01"
+   }
+  ],
   "added": [
    {
-    "name": "Finn Reynolds",
+    "name": "Gonzalo Escobar",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
+    "now": "2026-10-26..2026-11-01"
+   },
+   {
+    "name": "Ningbo Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
     "now": "2026-10-26..2026-11-01"
    }
   ],
   "removed": [
    {
-    "name": "Y-s Chung",
+    "name": "Sioux Falls Challenger",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
+    "was": "2026-10-26..2026-11-01"
+   },
+   {
+    "name": "Challenger Ciudad de Guayaquil",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-10-26..2026-11-01"
+   },
+   {
+    "name": "H Dellien",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
     "was": "2026-10-26..2026-11-01"
    }
   ]
