@@ -715,19 +715,6 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Gonzalo Escobar",
-  "city": "Niki Kaliyanda Poonacha",
-  "country": "South Dakota",
-  "tour": "ATP-CH",
-  "tier": "Challenger 100",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-10-26",
-  "end": "2026-11-01",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "James Watt",
   "city": "Blake Bayldon",
   "country": "France",
@@ -773,6 +760,19 @@
   "tour": "ATP-CH",
   "tier": "Challenger 125",
   "surface": "Hard",
+  "draw": 32,
+  "start": "2026-10-26",
+  "end": "2026-11-01",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Sriram Balaji",
+  "city": "Evan King",
+  "country": "South Dakota",
+  "tour": "ATP-CH",
+  "tier": "Challenger 100",
+  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",

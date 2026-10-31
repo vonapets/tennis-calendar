@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-31 12:26Z",
+ "checked": "2026-10-31 21:31Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -9,39 +9,15 @@
   "moved": [],
   "added": [
    {
-    "name": "James Watt",
+    "name": "Sriram Balaji",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
-    "now": "2026-10-26..2026-11-01"
-   },
-   {
-    "name": "Taranto Tennis Cup",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Mariano Kestelboim",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
     "now": "2026-10-26..2026-11-01"
    }
   ],
   "removed": [
    {
-    "name": "Taranto Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Ningbo Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-10-26..2026-11-01"
-   },
-   {
-    "name": "Finn Reynolds",
+    "name": "Gonzalo Escobar",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
     "was": "2026-10-26..2026-11-01"
