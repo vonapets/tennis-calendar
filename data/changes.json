@@ -1,29 +1,27 @@
 {
- "checked": "2026-10-30 22:16Z",
+ "checked": "2026-10-31 12:26Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [
-   {
-    "name": "Joran Vliegen",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-10-12..2026-10-18",
-    "now": "2026-10-26..2026-11-01"
-   }
-  ],
+  "moved": [],
   "added": [
    {
-    "name": "Gonzalo Escobar",
+    "name": "James Watt",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
     "now": "2026-10-26..2026-11-01"
    },
    {
-    "name": "Ningbo Challenger",
+    "name": "Taranto Tennis Cup",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-02..2026-11-08"
+   },
+   {
+    "name": "Mariano Kestelboim",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-10-26..2026-11-01"
@@ -31,21 +29,21 @@
   ],
   "removed": [
    {
-    "name": "Sioux Falls Challenger",
+    "name": "Taranto Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-02..2026-11-08"
+   },
+   {
+    "name": "Ningbo Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-10-26..2026-11-01"
+   },
+   {
+    "name": "Finn Reynolds",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
-    "was": "2026-10-26..2026-11-01"
-   },
-   {
-    "name": "Challenger Ciudad de Guayaquil",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-10-26..2026-11-01"
-   },
-   {
-    "name": "H Dellien",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
     "was": "2026-10-26..2026-11-01"
    }
   ]

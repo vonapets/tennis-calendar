@@ -715,9 +715,9 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Finn Reynolds",
-  "city": "James Watt (tennis)",
-  "country": "France",
+  "name": "Gonzalo Escobar",
+  "city": "Niki Kaliyanda Poonacha",
+  "country": "South Dakota",
   "tour": "ATP-CH",
   "tier": "Challenger 100",
   "surface": "Hard (i)",
@@ -728,9 +728,9 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Gonzalo Escobar",
-  "city": "Niki Kaliyanda Poonacha",
-  "country": "South Dakota",
+  "name": "James Watt",
+  "city": "Blake Bayldon",
+  "country": "France",
   "tour": "ATP-CH",
   "tier": "Challenger 100",
   "surface": "Hard (i)",
@@ -754,8 +754,8 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Ningbo Challenger",
-  "city": "Ningbo",
+  "name": "Mariano Kestelboim",
+  "city": "Karol Drzewiecki",
   "country": "China",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
@@ -923,7 +923,7 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Taranto Challenger",
+  "name": "Taranto Tennis Cup",
   "city": "Taranto",
   "country": "Italy",
   "tour": "ATP-CH",
