@@ -728,12 +728,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Joran Vliegen",
-  "city": "Miguel \u00c1ngel Reyes-Varela",
-  "country": "Ecuador",
+  "name": "Mariano Kestelboim",
+  "city": "Karol Drzewiecki",
+  "country": "China",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
-  "surface": "Clay",
+  "surface": "Hard",
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",
@@ -741,12 +741,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Mariano Kestelboim",
-  "city": "Karol Drzewiecki",
-  "country": "China",
+  "name": "Miguel \u00c1ngel Reyes-Varela",
+  "city": "Reese Stalder",
+  "country": "Ecuador",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
-  "surface": "Hard",
+  "surface": "Clay",
   "draw": 32,
   "start": "2026-10-26",
   "end": "2026-11-01",

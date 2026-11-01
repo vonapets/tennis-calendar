@@ -1,27 +1,28 @@
 {
- "checked": "2026-10-31 21:31Z",
+ "checked": "2026-11-01 13:21Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [],
-  "added": [
+  "moved": [
    {
-    "name": "Sriram Balaji",
+    "name": "Miguel \u00c1ngel Reyes-Varela",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-09-28..2026-10-04",
+    "now": "2026-10-26..2026-11-01"
+   },
+   {
+    "name": "Joran Vliegen",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
-    "now": "2026-10-26..2026-11-01"
+    "was": "2026-10-26..2026-11-01",
+    "now": "2026-10-12..2026-10-18"
    }
   ],
-  "removed": [
-   {
-    "name": "Gonzalo Escobar",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "was": "2026-10-26..2026-11-01"
-   }
-  ]
+  "added": [],
+  "removed": []
  }
 }
