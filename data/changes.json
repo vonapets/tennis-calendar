@@ -1,7 +1,7 @@
 {
- "checked": "2026-11-01 21:59Z",
+ "checked": "2026-11-02 15:49Z",
  "sources": {
-  "wta": "ok - 34 tournaments",
+  "wta": "REFUSED - pulled 19 against 34 last time (under 60%); kept the previous snapshot",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
