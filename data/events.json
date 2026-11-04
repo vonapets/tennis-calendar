@@ -858,6 +858,19 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "C Ugo Carabelli",
+  "city": "2026 Slovak Open",
+  "country": "Slovakia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 100",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Challenger de Villa Mar\u00eda",
   "city": "Villa Mar\u00eda",
   "country": "Argentina",
@@ -903,19 +916,6 @@
   "tour": "ATP-CH",
   "tier": "Challenger 100",
   "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-02",
-  "end": "2026-11-08",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Slovak Open",
-  "city": "Bratislava",
-  "country": "Slovakia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 100",
-  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",

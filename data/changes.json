@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-04 14:30Z",
+ "checked": "2026-11-04 23:38Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,7 +7,21 @@
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "C Ugo Carabelli",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "now": "2026-11-02..2026-11-08"
+   }
+  ],
+  "removed": [
+   {
+    "name": "Slovak Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "was": "2026-11-02..2026-11-08"
+   }
+  ]
  }
 }
