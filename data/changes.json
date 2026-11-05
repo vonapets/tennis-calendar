@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-05 14:37Z",
+ "checked": "2026-11-05 23:37Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,7 +7,33 @@
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "M Ka\u015bnikowski",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-02..2026-11-08"
+   },
+   {
+    "name": "J Rodionov",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "now": "2026-11-02..2026-11-08"
+   }
+  ],
+  "removed": [
+   {
+    "name": "Taranto Tennis Cup",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-02..2026-11-08"
+   },
+   {
+    "name": "Santaizi ATP Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "was": "2026-11-02..2026-11-08"
+   }
+  ]
  }
 }
