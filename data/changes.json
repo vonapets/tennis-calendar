@@ -1,63 +1,37 @@
 {
- "checked": "2026-11-06 14:14Z",
+ "checked": "2026-11-06 23:06Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [
-   {
-    "name": "James Watt",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-10-26..2026-11-01",
-    "now": "2026-11-02..2026-11-08"
-   }
-  ],
+  "moved": [],
   "added": [
    {
-    "name": "A Andrade",
+    "name": "Jarno Jans",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-11-02..2026-11-08"
    },
    {
-    "name": "Theodore Winegar",
+    "name": "Juan Carlos Prado \u00c1ngelo",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
-    "now": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Maximilian Neuchrist",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
     "now": "2026-11-02..2026-11-08"
    }
   ],
   "removed": [
    {
-    "name": "Charlottesville Men's Pro Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Challenger de Villa Mar\u00eda",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "M Ka\u015bnikowski",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "J Rodionov",
+    "name": "C Ugo Carabelli",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
+    "was": "2026-11-02..2026-11-08"
+   },
+   {
+    "name": "A Andrade",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
     "was": "2026-11-02..2026-11-08"
    }
   ]
