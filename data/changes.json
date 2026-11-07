@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07 12:58Z",
+ "checked": "2026-11-07 21:47Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -8,69 +8,46 @@
  "changes": {
   "moved": [
    {
-    "name": "James Watt",
+    "name": "Andrew Paulson",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
-    "was": "2026-11-02..2026-11-08",
-    "now": "2026-10-26..2026-11-01"
+    "was": "2026-10-12..2026-10-18",
+    "now": "2026-11-02..2026-11-08"
+   },
+   {
+    "name": "Joran Vliegen",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-10-12..2026-10-18",
+    "now": "2026-11-02..2026-11-08"
    }
   ],
   "added": [
    {
-    "name": "Andr\u00e9s Molteni",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "now": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Anirudh Chandrasekar",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Daniel Milavsky",
+    "name": "Challenger de Villa Mar\u00eda",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Orl\u00e9ans Open",
-    "tour": "ATP-CH",
-    "tier": "Challenger 125",
-    "now": "2026-11-09..2026-11-15"
-   },
-   {
-    "name": "River City Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-11-09..2026-11-15"
    }
   ],
   "removed": [
    {
-    "name": "Juan Carlos Prado \u00c1ngelo",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "was": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Jarno Jans",
+    "name": "Daniel Milavsky",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-11-02..2026-11-08"
    },
    {
-    "name": "Open d'Orl\u00e9ans",
+    "name": "Theodore Winegar",
     "tour": "ATP-CH",
-    "tier": "Challenger 125",
-    "was": "2026-11-09..2026-11-15"
+    "tier": "Challenger 100",
+    "was": "2026-11-02..2026-11-08"
    },
    {
-    "name": "Queensland International III",
+    "name": "Maximilian Neuchrist",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-09..2026-11-15"
+    "tier": "Challenger 50",
+    "was": "2026-11-02..2026-11-08"
    }
   ]
  }

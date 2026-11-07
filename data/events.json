@@ -858,6 +858,19 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "Andrew Paulson",
+  "city": "Jean-Julien Rojer",
+  "country": "Taiwan",
+  "tour": "ATP-CH",
+  "tier": "Challenger 100",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Andr\u00e9s Molteni",
   "city": "Zden\u011bk Kol\u00e1\u0159",
   "country": "Slovakia",
@@ -884,6 +897,19 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
+  "name": "Challenger de Villa Mar\u00eda",
+  "city": "Villa Mar\u00eda",
+  "country": "Argentina",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Costa do Sau\u00edpe Open",
   "city": "Sauipe",
   "country": "Brazil",
@@ -897,37 +923,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Daniel Milavsky",
-  "city": "Braden Shick",
+  "name": "Joran Vliegen",
+  "city": "Daniel Milavsky",
   "country": "Italy",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-02",
-  "end": "2026-11-08",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Maximilian Neuchrist",
-  "city": "2026 Challenger de Villa Mar\u00eda",
-  "country": "Argentina",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-11-02",
-  "end": "2026-11-08",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Theodore Winegar",
-  "city": "Milo\u0161 Karol",
-  "country": "Taiwan",
-  "tour": "ATP-CH",
-  "tier": "Challenger 100",
   "surface": "Hard",
   "draw": 32,
   "start": "2026-11-02",
