@@ -858,6 +858,32 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "Andr\u00e9s Molteni",
+  "city": "Zden\u011bk Kol\u00e1\u0159",
+  "country": "Slovakia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 100",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Anirudh Chandrasekar",
+  "city": "Ajeet Rai",
+  "country": "Virginia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Costa do Sau\u00edpe Open",
   "city": "Sauipe",
   "country": "Brazil",
@@ -871,38 +897,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "James Watt",
-  "city": "2026 Charlottesville Men's Pro Challenger",
-  "country": "Virginia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-11-02",
-  "end": "2026-11-08",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Jarno Jans",
-  "city": "Joran Vliegen",
+  "name": "Daniel Milavsky",
+  "city": "Braden Shick",
   "country": "Italy",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
   "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-02",
-  "end": "2026-11-08",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Juan Carlos Prado \u00c1ngelo",
-  "city": "2026 Slovak Open",
-  "country": "Slovakia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 100",
-  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",
@@ -1092,7 +1092,7 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Open d'Orl\u00e9ans",
+  "name": "Orl\u00e9ans Open",
   "city": "Orl\u00e9ans",
   "country": "France",
   "tour": "ATP-CH",
@@ -1105,7 +1105,7 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Queensland International III",
+  "name": "River City Challenger",
   "city": "Brisbane",
   "country": "Australia",
   "tour": "ATP-CH",

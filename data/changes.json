@@ -1,38 +1,76 @@
 {
- "checked": "2026-11-06 23:06Z",
+ "checked": "2026-11-07 12:58Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [],
+  "moved": [
+   {
+    "name": "James Watt",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "was": "2026-11-02..2026-11-08",
+    "now": "2026-10-26..2026-11-01"
+   }
+  ],
   "added": [
    {
-    "name": "Jarno Jans",
+    "name": "Andr\u00e9s Molteni",
+    "tour": "ATP-CH",
+    "tier": "Challenger 100",
+    "now": "2026-11-02..2026-11-08"
+   },
+   {
+    "name": "Anirudh Chandrasekar",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-02..2026-11-08"
+   },
+   {
+    "name": "Daniel Milavsky",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-11-02..2026-11-08"
    },
    {
-    "name": "Juan Carlos Prado \u00c1ngelo",
+    "name": "Orl\u00e9ans Open",
     "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "now": "2026-11-02..2026-11-08"
+    "tier": "Challenger 125",
+    "now": "2026-11-09..2026-11-15"
+   },
+   {
+    "name": "River City Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-09..2026-11-15"
    }
   ],
   "removed": [
    {
-    "name": "C Ugo Carabelli",
+    "name": "Juan Carlos Prado \u00c1ngelo",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
     "was": "2026-11-02..2026-11-08"
    },
    {
-    "name": "A Andrade",
+    "name": "Jarno Jans",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-11-02..2026-11-08"
+   },
+   {
+    "name": "Open d'Orl\u00e9ans",
+    "tour": "ATP-CH",
+    "tier": "Challenger 125",
+    "was": "2026-11-09..2026-11-15"
+   },
+   {
+    "name": "Queensland International III",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-09..2026-11-15"
    }
   ]
  }
