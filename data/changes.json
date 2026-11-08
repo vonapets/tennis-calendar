@@ -1,28 +1,13 @@
 {
- "checked": "2026-11-08 13:22Z",
+ "checked": "2026-11-08 22:01Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [
-   {
-    "name": "Santiago Rodr\u00edguez Taverna",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "was": "2026-09-21..2026-09-27",
-    "now": "2026-11-02..2026-11-08"
-   }
-  ],
+  "moved": [],
   "added": [],
-  "removed": [
-   {
-    "name": "Andr\u00e9s Molteni",
-    "tour": "ATP-CH",
-    "tier": "Challenger 100",
-    "was": "2026-11-02..2026-11-08"
-   }
-  ]
+  "removed": []
  }
 }
