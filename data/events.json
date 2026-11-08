@@ -871,19 +871,6 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Andr\u00e9s Molteni",
-  "city": "Zden\u011bk Kol\u00e1\u0159",
-  "country": "Slovakia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 100",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-11-02",
-  "end": "2026-11-08",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Anirudh Chandrasekar",
   "city": "Ajeet Rai",
   "country": "Virginia",
@@ -929,6 +916,19 @@
   "tour": "ATP-CH",
   "tier": "Challenger 50",
   "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Santiago Rodr\u00edguez Taverna",
+  "city": "Diego Hidalgo (tennis)",
+  "country": "Slovakia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 100",
+  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-02",
   "end": "2026-11-08",

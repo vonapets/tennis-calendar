@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07 21:47Z",
+ "checked": "2026-11-08 13:22Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -8,45 +8,19 @@
  "changes": {
   "moved": [
    {
-    "name": "Andrew Paulson",
+    "name": "Santiago Rodr\u00edguez Taverna",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
-    "was": "2026-10-12..2026-10-18",
-    "now": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Joran Vliegen",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-10-12..2026-10-18",
+    "was": "2026-09-21..2026-09-27",
     "now": "2026-11-02..2026-11-08"
    }
   ],
-  "added": [
-   {
-    "name": "Challenger de Villa Mar\u00eda",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-11-02..2026-11-08"
-   }
-  ],
+  "added": [],
   "removed": [
    {
-    "name": "Daniel Milavsky",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Theodore Winegar",
+    "name": "Andr\u00e9s Molteni",
     "tour": "ATP-CH",
     "tier": "Challenger 100",
-    "was": "2026-11-02..2026-11-08"
-   },
-   {
-    "name": "Maximilian Neuchrist",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
     "was": "2026-11-02..2026-11-08"
    }
   ]
