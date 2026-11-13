@@ -1,27 +1,35 @@
 {
- "checked": "2026-11-13 14:33Z",
+ "checked": "2026-11-13 23:30Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [],
+  "moved": [
+   {
+    "name": "Joran Vliegen",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-02..2026-11-08",
+    "now": "2026-11-09..2026-11-15"
+   }
+  ],
   "added": [
    {
-    "name": "Monastir Open",
+    "name": "Challenger Banque Nationale de Drummondville",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "Pavlos Tsitsipas",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-11-09..2026-11-15"
    },
    {
-    "name": "Blake Ellis",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-11-09..2026-11-15"
-   },
-   {
-    "name": "Finn Reynolds",
+    "name": "Facundo Mena",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-11-09..2026-11-15"
@@ -29,22 +37,28 @@
   ],
   "removed": [
    {
-    "name": "H Searle",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-11-09..2026-11-15"
-   },
-   {
-    "name": "J Friend",
+    "name": "River City Challenger",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-11-09..2026-11-15"
    },
    {
-    "name": "A Holmgren",
+    "name": "Monastir Open",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-11-09..2026-11-15"
+   },
+   {
+    "name": "M Zheng",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-09..2026-11-15"
+   },
+   {
+    "name": "Challenger de Drummondville",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-16..2026-11-22"
    }
   ]
  }

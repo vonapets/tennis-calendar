@@ -1040,12 +1040,38 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
+  "name": "Facundo Mena",
+  "city": "Karol Drzewiecki",
+  "country": "Australia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Finn Reynolds",
   "city": "James Watt (tennis)",
   "country": "Peru",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
   "surface": "Clay",
+  "draw": 32,
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Joran Vliegen",
+  "city": "Andy Andrade",
+  "country": "Japan",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Hard",
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-15",
@@ -1066,32 +1092,6 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "M Zheng",
-  "city": "2026 Matsuyama Challenger",
-  "country": "Japan",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-09",
-  "end": "2026-11-15",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Monastir Open",
-  "city": "Monastir",
-  "country": "Tunisia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-09",
-  "end": "2026-11-15",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Orl\u00e9ans Open",
   "city": "Orl\u00e9ans",
   "country": "France",
@@ -1105,11 +1105,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "River City Challenger",
-  "city": "Brisbane",
-  "country": "Australia",
+  "name": "Pavlos Tsitsipas",
+  "city": "Petros Tsitsipas",
+  "country": "Tunisia",
   "tour": "ATP-CH",
-  "tier": "Challenger 75",
+  "tier": "Challenger 50",
   "surface": "Hard",
   "draw": 32,
   "start": "2026-11-09",
@@ -1144,7 +1144,7 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Challenger de Drummondville",
+  "name": "Challenger Banque Nationale de Drummondville",
   "city": "Drummondville",
   "country": "Canada",
   "tour": "ATP-CH",
