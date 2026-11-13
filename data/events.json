@@ -1027,8 +1027,8 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "A Holmgren",
-  "city": "2026 Crete Challenger III",
+  "name": "Blake Ellis",
+  "city": "Li Tu",
   "country": "Greece",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
@@ -1040,21 +1040,8 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "H Searle",
-  "city": "2026 Monastir Open",
-  "country": "Tunisia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-09",
-  "end": "2026-11-15",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "J Friend",
-  "city": "2026 Lima Challenger",
+  "name": "Finn Reynolds",
+  "city": "James Watt (tennis)",
   "country": "Peru",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
@@ -1084,6 +1071,19 @@
   "country": "Japan",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Monastir Open",
+  "city": "Monastir",
+  "country": "Tunisia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
   "surface": "Hard",
   "draw": 32,
   "start": "2026-11-09",

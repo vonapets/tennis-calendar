@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-12 23:36Z",
+ "checked": "2026-11-13 14:33Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -9,7 +9,19 @@
   "moved": [],
   "added": [
    {
-    "name": "M Zheng",
+    "name": "Monastir Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-09..2026-11-15"
+   },
+   {
+    "name": "Blake Ellis",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-09..2026-11-15"
+   },
+   {
+    "name": "Finn Reynolds",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-11-09..2026-11-15"
@@ -17,9 +29,21 @@
   ],
   "removed": [
    {
-    "name": "Matsuyama Challenger",
+    "name": "H Searle",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-09..2026-11-15"
+   },
+   {
+    "name": "J Friend",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
+    "was": "2026-11-09..2026-11-15"
+   },
+   {
+    "name": "A Holmgren",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
     "was": "2026-11-09..2026-11-15"
    }
   ]
