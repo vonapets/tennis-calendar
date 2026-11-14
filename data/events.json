@@ -1027,19 +1027,6 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Blake Ellis",
-  "city": "Li Tu",
-  "country": "Greece",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-09",
-  "end": "2026-11-15",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Facundo Mena",
   "city": "Karol Drzewiecki",
   "country": "Australia",
@@ -1053,8 +1040,8 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Finn Reynolds",
-  "city": "James Watt (tennis)",
+  "name": "James Watt",
+  "city": "Pruchya Isaro",
   "country": "Peru",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
@@ -1085,6 +1072,19 @@
   "tour": "ATP-CH",
   "tier": "Challenger 75",
   "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Li Tu",
+  "city": "Alafia Ayeni",
+  "country": "Greece",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard",
   "draw": 32,
   "start": "2026-11-09",
   "end": "2026-11-15",
@@ -1300,6 +1300,19 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
+  "name": "El Salvador Open",
+  "city": "San Salvador",
+  "country": "El Salvador",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Florian\u00f3polis Challenger",
   "city": "Florian\u00f3polis",
   "country": "Brazil",
@@ -1329,19 +1342,6 @@
   "name": "Monastir Open II",
   "city": "Monastir",
   "country": "Tunisia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-23",
-  "end": "2026-11-29",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "San Salvador Challenger",
-  "city": "San Salvador",
-  "country": "El Salvador",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
   "surface": "Hard",
@@ -1391,12 +1391,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Chi\u0219in\u0103u Indoors",
-  "city": "Chi\u0219in\u0103u",
-  "country": "Moldova",
+  "name": "Crete Challenger V",
+  "city": "Hersonissos",
+  "country": "Greece",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
-  "surface": "Hard (i)",
+  "surface": "Hard",
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
@@ -1404,12 +1404,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Crete Challenger V",
-  "city": "Hersonissos",
-  "country": "Greece",
+  "name": "Satul German Open",
+  "city": "Chi\u0219in\u0103u",
+  "country": "Moldova",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
-  "surface": "Hard",
+  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-30",
   "end": "2026-12-06",
@@ -1469,7 +1469,20 @@
   "src": "api.wtatennis.com"
  },
  {
-  "name": "Copenhagen Challenger",
+  "name": "Corcovado Tennis Open",
+  "city": "Rio de Janeiro",
+  "country": "Brazil",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-12-07",
+  "end": "2026-12-13",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Kj\u00f8benhavn Open",
   "city": "Copenhagen",
   "country": "Denmark",
   "tour": "ATP-CH",
@@ -1482,7 +1495,7 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "La Paz Challenger",
+  "name": "La Paz Open",
   "city": "La Paz",
   "country": "Bolivia",
   "tour": "ATP-CH",
@@ -1521,19 +1534,6 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Rio de Janeiro Challenger",
-  "city": "Rio de Janeiro",
-  "country": "Brazil",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-12-07",
-  "end": "2026-12-13",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Trnava Challenger II",
   "city": "Trnava",
   "country": "Slovakia",
@@ -1560,6 +1560,19 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "A-Rete Park Challenger",
+  "city": "Guanzate",
+  "country": "Italy",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-12-14",
+  "end": "2026-12-20",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Blumenau Challenger",
   "city": "Blumenau",
   "country": "Brazil",
@@ -1573,20 +1586,7 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Guanzate Challenger",
-  "city": "Guanzate",
-  "country": "Italy",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-12-14",
-  "end": "2026-12-20",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "La Paz Challenger II",
+  "name": "La Paz Open II",
   "city": "La Paz",
   "country": "Bolivia",
   "tour": "ATP-CH",

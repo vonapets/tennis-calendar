@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-13 23:30Z",
+ "checked": "2026-11-14 13:29Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -8,57 +8,117 @@
  "changes": {
   "moved": [
    {
-    "name": "Joran Vliegen",
+    "name": "James Watt",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
-    "was": "2026-11-02..2026-11-08",
+    "was": "2026-10-26..2026-11-01",
     "now": "2026-11-09..2026-11-15"
    }
   ],
   "added": [
    {
-    "name": "Challenger Banque Nationale de Drummondville",
+    "name": "La Paz Open II",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-11-16..2026-11-22"
+    "tier": "Challenger 50",
+    "now": "2026-12-14..2026-12-20"
    },
    {
-    "name": "Pavlos Tsitsipas",
+    "name": "Corcovado Tennis Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-12-07..2026-12-13"
+   },
+   {
+    "name": "A-Rete Park Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-12-14..2026-12-20"
+   },
+   {
+    "name": "Li Tu",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-11-09..2026-11-15"
    },
    {
-    "name": "Facundo Mena",
+    "name": "Kj\u00f8benhavn Open",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-11-09..2026-11-15"
+    "tier": "Challenger 50",
+    "now": "2026-12-07..2026-12-13"
+   },
+   {
+    "name": "Satul German Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-30..2026-12-06"
+   },
+   {
+    "name": "El Salvador Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "La Paz Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-12-07..2026-12-13"
    }
   ],
   "removed": [
    {
-    "name": "River City Challenger",
+    "name": "Rio de Janeiro Challenger",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-09..2026-11-15"
+    "tier": "Challenger 50",
+    "was": "2026-12-07..2026-12-13"
    },
    {
-    "name": "Monastir Open",
+    "name": "Chi\u0219in\u0103u Indoors",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-30..2026-12-06"
+   },
+   {
+    "name": "La Paz Challenger II",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-12-14..2026-12-20"
+   },
+   {
+    "name": "Guanzate Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-12-14..2026-12-20"
+   },
+   {
+    "name": "San Salvador Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "Copenhagen Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-12-07..2026-12-13"
+   },
+   {
+    "name": "La Paz Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-12-07..2026-12-13"
+   },
+   {
+    "name": "Blake Ellis",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-11-09..2026-11-15"
    },
    {
-    "name": "M Zheng",
+    "name": "Finn Reynolds",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-11-09..2026-11-15"
-   },
-   {
-    "name": "Challenger de Drummondville",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-16..2026-11-22"
    }
   ]
  }
