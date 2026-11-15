@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-14 22:21Z",
+ "checked": "2026-11-15 13:54Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,33 +7,7 @@
  },
  "changes": {
   "moved": [],
-  "added": [
-   {
-    "name": "Petros Tsitsipas",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-11-09..2026-11-15"
-   },
-   {
-    "name": "Filip Pieczonka",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-11-09..2026-11-15"
-   }
-  ],
-  "removed": [
-   {
-    "name": "Knoxville Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-09..2026-11-15"
-   },
-   {
-    "name": "Pavlos Tsitsipas",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-11-09..2026-11-15"
-   }
-  ]
+  "added": [],
+  "removed": []
  }
 }
