@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-18 15:37Z",
+ "checked": "2026-11-19 00:21Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,7 +7,21 @@
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "L Djere",
+    "tour": "ATP-CH",
+    "tier": "Challenger 125",
+    "now": "2026-11-16..2026-11-22"
+   }
+  ],
+  "removed": [
+   {
+    "name": "Open Metz\u2013Grand Est",
+    "tour": "ATP-CH",
+    "tier": "Challenger 125",
+    "was": "2026-11-16..2026-11-22"
+   }
+  ]
  }
 }
