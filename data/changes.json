@@ -1,62 +1,76 @@
 {
- "checked": "2026-11-20 15:25Z",
+ "checked": "2026-11-20 23:58Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [],
+  "moved": [
+   {
+    "name": "Miguel \u00c1ngel Reyes-Varela",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-10-26..2026-11-01",
+    "now": "2026-11-16..2026-11-22"
+   }
+  ],
   "added": [
+   {
+    "name": "Niki Kaliyanda Poonacha",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "Nicol\u00e1s Barrientos",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "Theodore Winegar",
+    "tour": "ATP-CH",
+    "tier": "Challenger 125",
+    "now": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "Engie Open Florian\u00f3polis",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-23..2026-11-29"
+   }
+  ],
+  "removed": [
+   {
+    "name": "C Chidekh",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-16..2026-11-22"
+   },
    {
     "name": "Gonzalo Escobar",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
-    "now": "2026-11-16..2026-11-22"
+    "was": "2026-11-16..2026-11-22"
    },
    {
-    "name": "Thijmen Loof",
+    "name": "T Seyboth Wild",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
-    "now": "2026-11-16..2026-11-22"
-   },
-   {
-    "name": "Jason Jung",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-11-16..2026-11-22"
+    "was": "2026-11-16..2026-11-22"
    },
    {
     "name": "Nicolai Budkov Kj\u00e6r",
     "tour": "ATP-CH",
     "tier": "Challenger 125",
-    "now": "2026-11-16..2026-11-22"
-   }
-  ],
-  "removed": [
+    "was": "2026-11-16..2026-11-22"
+   },
    {
-    "name": "Challenger Banque Nationale de Drummondville",
+    "name": "Florian\u00f3polis Challenger",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
-    "was": "2026-11-16..2026-11-22"
-   },
-   {
-    "name": "Champaign Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-11-16..2026-11-22"
-   },
-   {
-    "name": "L Nardi",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-16..2026-11-22"
-   },
-   {
-    "name": "L Djere",
-    "tour": "ATP-CH",
-    "tier": "Challenger 125",
-    "was": "2026-11-16..2026-11-22"
+    "was": "2026-11-23..2026-11-29"
    }
   ]
  }

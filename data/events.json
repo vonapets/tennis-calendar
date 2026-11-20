@@ -1144,32 +1144,6 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "C Chidekh",
-  "city": "2026 NSW Open",
-  "country": "Australia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-16",
-  "end": "2026-11-22",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Gonzalo Escobar",
-  "city": "Niki Kaliyanda Poonacha",
-  "country": "Uruguay",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Clay",
-  "draw": 32,
-  "start": "2026-11-16",
-  "end": "2026-11-22",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "HPP Open",
   "city": "Helsinki",
   "country": "Finland",
@@ -1196,11 +1170,24 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Nicolai Budkov Kj\u00e6r",
-  "city": "2026 Open Metz\u2013Grand Est",
-  "country": "France",
+  "name": "Miguel \u00c1ngel Reyes-Varela",
+  "city": "Reese Stalder",
+  "country": "Australia",
   "tour": "ATP-CH",
-  "tier": "Challenger 125",
+  "tier": "Challenger 75",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Nicol\u00e1s Barrientos",
+  "city": "Mariano Kestelboim",
+  "country": "Japan",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
   "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-16",
@@ -1209,11 +1196,24 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "T Seyboth Wild",
-  "city": "2026 Kobe Challenger",
-  "country": "Japan",
+  "name": "Niki Kaliyanda Poonacha",
+  "city": "\u00cd\u00f1igo Cervantes",
+  "country": "Uruguay",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
+  "surface": "Clay",
+  "draw": 32,
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Theodore Winegar",
+  "city": "Luke Johnson (tennis)",
+  "country": "France",
+  "tour": "ATP-CH",
+  "tier": "Challenger 125",
   "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-16",
@@ -1313,7 +1313,7 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Florian\u00f3polis Challenger",
+  "name": "Engie Open Florian\u00f3polis",
   "city": "Florian\u00f3polis",
   "country": "Brazil",
   "tour": "ATP-CH",
