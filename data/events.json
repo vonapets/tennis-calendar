@@ -1157,25 +1157,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Challenger Banque Nationale de Drummondville",
-  "city": "Drummondville",
-  "country": "Canada",
+  "name": "Gonzalo Escobar",
+  "city": "Niki Kaliyanda Poonacha",
+  "country": "Uruguay",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-11-16",
-  "end": "2026-11-22",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Champaign Challenger",
-  "city": "Champaign",
-  "country": "Illinois",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard (i)",
+  "surface": "Clay",
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
@@ -1196,7 +1183,20 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "L Djere",
+  "name": "Jason Jung",
+  "city": "Ajeet Rai",
+  "country": "Illinois",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Nicolai Budkov Kj\u00e6r",
   "city": "2026 Open Metz\u2013Grand Est",
   "country": "France",
   "tour": "ATP-CH",
@@ -1209,12 +1209,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "L Nardi",
-  "city": "2026 Uruguay Open",
-  "country": "Uruguay",
+  "name": "T Seyboth Wild",
+  "city": "2026 Kobe Challenger",
+  "country": "Japan",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
-  "surface": "Clay",
+  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
@@ -1222,9 +1222,9 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "T Seyboth Wild",
-  "city": "2026 Kobe Challenger",
-  "country": "Japan",
+  "name": "Thijmen Loof",
+  "city": "Kaito Uesugi",
+  "country": "Canada",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
   "surface": "Hard (i)",

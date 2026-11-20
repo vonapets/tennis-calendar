@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20 00:36Z",
+ "checked": "2026-11-20 15:25Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -9,41 +9,53 @@
   "moved": [],
   "added": [
    {
-    "name": "L Nardi",
+    "name": "Gonzalo Escobar",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-11-16..2026-11-22"
    },
    {
-    "name": "T Seyboth Wild",
+    "name": "Thijmen Loof",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "now": "2026-11-16..2026-11-22"
    },
    {
-    "name": "C Chidekh",
+    "name": "Jason Jung",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
+    "tier": "Challenger 50",
+    "now": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "Nicolai Budkov Kj\u00e6r",
+    "tour": "ATP-CH",
+    "tier": "Challenger 125",
     "now": "2026-11-16..2026-11-22"
    }
   ],
   "removed": [
    {
-    "name": "NSW Open",
+    "name": "Challenger Banque Nationale de Drummondville",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-11-16..2026-11-22"
    },
    {
-    "name": "Uruguay Open",
+    "name": "Champaign Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "L Nardi",
     "tour": "ATP-CH",
     "tier": "Challenger 75",
     "was": "2026-11-16..2026-11-22"
    },
    {
-    "name": "Kobe Challenger",
+    "name": "L Djere",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
+    "tier": "Challenger 125",
     "was": "2026-11-16..2026-11-22"
    }
   ]
