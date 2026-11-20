@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19 15:43Z",
+ "checked": "2026-11-20 00:36Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,7 +7,45 @@
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "L Nardi",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "T Seyboth Wild",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "C Chidekh",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-16..2026-11-22"
+   }
+  ],
+  "removed": [
+   {
+    "name": "NSW Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "Uruguay Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-16..2026-11-22"
+   },
+   {
+    "name": "Kobe Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-16..2026-11-22"
+   }
+  ]
  }
 }

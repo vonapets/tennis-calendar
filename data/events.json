@@ -1144,6 +1144,19 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
+  "name": "C Chidekh",
+  "city": "2026 NSW Open",
+  "country": "Australia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
   "name": "Challenger Banque Nationale de Drummondville",
   "city": "Drummondville",
   "country": "Canada",
@@ -1183,19 +1196,6 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Kobe Challenger",
-  "city": "Kobe",
-  "country": "Japan",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-11-16",
-  "end": "2026-11-22",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "L Djere",
   "city": "2026 Open Metz\u2013Grand Est",
   "country": "France",
@@ -1209,12 +1209,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "NSW Open",
-  "city": "Sydney",
-  "country": "Australia",
+  "name": "L Nardi",
+  "city": "2026 Uruguay Open",
+  "country": "Uruguay",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
-  "surface": "Hard",
+  "surface": "Clay",
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
@@ -1222,12 +1222,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Uruguay Open",
-  "city": "Montevideo",
-  "country": "Uruguay",
+  "name": "T Seyboth Wild",
+  "city": "2026 Kobe Challenger",
+  "country": "Japan",
   "tour": "ATP-CH",
   "tier": "Challenger 75",
-  "surface": "Clay",
+  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-16",
   "end": "2026-11-22",
