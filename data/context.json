@@ -20,9 +20,9 @@
   },
   "kalshi_medians": {
     "tour_level": 53768947,
-    "atp_challenger": 38791373,
+    "atp_challenger": 38132922,
     "wta_125": 30206026,
-    "itf": 12333639,
+    "itf": 12232427,
     "na_challenger": 83857304,
     "non_na_challenger": 35243243
   },
@@ -166,24 +166,24 @@
   },
   "kalshi_detail": {
     "tour_level": {
-      "total": 2802151323,
+      "total": 2797690761,
       "tournaments": 42,
       "median": 53768947
     },
     "atp_challenger": {
-      "total": 3047058827,
-      "tournaments": 87,
-      "median": 38791373
+      "total": 3000704806,
+      "tournaments": 88,
+      "median": 38132922
     },
     "wta_125": {
-      "total": 760290898,
+      "total": 738247184,
       "tournaments": 25,
       "median": 30206026
     },
     "itf": {
-      "total": 3202029112,
-      "tournaments": 195,
-      "median": 12333639
+      "total": 3191956279,
+      "tournaments": 197,
+      "median": 12232427
     }
   }
 }
