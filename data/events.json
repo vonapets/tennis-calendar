@@ -1144,11 +1144,11 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "HPP Open",
-  "city": "Helsinki",
-  "country": "Finland",
+  "name": "Ajeet Rai",
+  "city": "2026 Champaign Challenger",
+  "country": "Illinois",
   "tour": "ATP-CH",
-  "tier": "Challenger 125",
+  "tier": "Challenger 50",
   "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-16",
@@ -1157,11 +1157,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Jason Jung",
-  "city": "Ajeet Rai",
-  "country": "Illinois",
+  "name": "HPP Open",
+  "city": "Helsinki",
+  "country": "Finland",
   "tour": "ATP-CH",
-  "tier": "Challenger 50",
+  "tier": "Challenger 125",
   "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-16",
