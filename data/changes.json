@@ -1,66 +1,13 @@
 {
- "checked": "2026-11-21 23:12Z",
+ "checked": "2026-11-22 14:33Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [
-   {
-    "name": "Miguel \u00c1ngel Reyes-Varela",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-16..2026-11-22",
-    "now": "2026-10-26..2026-11-01"
-   },
-   {
-    "name": "Mariano Kestelboim",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-10-26..2026-11-01",
-    "now": "2026-11-16..2026-11-22"
-   }
-  ],
-  "added": [
-   {
-    "name": "Reese Stalder",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-11-16..2026-11-22"
-   },
-   {
-    "name": "Pedro Mart\u00ednez",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-11-16..2026-11-22"
-   },
-   {
-    "name": "Luke Johnson",
-    "tour": "ATP-CH",
-    "tier": "Challenger 125",
-    "now": "2026-11-16..2026-11-22"
-   }
-  ],
-  "removed": [
-   {
-    "name": "Theodore Winegar",
-    "tour": "ATP-CH",
-    "tier": "Challenger 125",
-    "was": "2026-11-16..2026-11-22"
-   },
-   {
-    "name": "Niki Kaliyanda Poonacha",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-16..2026-11-22"
-   },
-   {
-    "name": "Nicol\u00e1s Barrientos",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-16..2026-11-22"
-   }
-  ]
+  "moved": [],
+  "added": [],
+  "removed": []
  }
 }
