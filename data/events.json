@@ -1326,11 +1326,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Keio Challenger",
-  "city": "Yokohama",
-  "country": "Japan",
+  "name": "Monastir Open II",
+  "city": "Monastir",
+  "country": "Tunisia",
   "tour": "ATP-CH",
-  "tier": "Challenger 75",
+  "tier": "Challenger 50",
   "surface": "Hard",
   "draw": 32,
   "start": "2026-11-23",
@@ -1339,11 +1339,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Monastir Open II",
-  "city": "Monastir",
-  "country": "Tunisia",
+  "name": "T Schoolkate",
+  "city": "2026 Keio Challenger",
+  "country": "Japan",
   "tour": "ATP-CH",
-  "tier": "Challenger 50",
+  "tier": "Challenger 75",
   "surface": "Hard",
   "draw": 32,
   "start": "2026-11-23",

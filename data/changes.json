@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-24 17:42Z",
+ "checked": "2026-11-25 02:24Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
@@ -7,7 +7,21 @@
  },
  "changes": {
   "moved": [],
-  "added": [],
-  "removed": []
+  "added": [
+   {
+    "name": "T Schoolkate",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-23..2026-11-29"
+   }
+  ],
+  "removed": [
+   {
+    "name": "Keio Challenger",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-23..2026-11-29"
+   }
+  ]
  }
 }
