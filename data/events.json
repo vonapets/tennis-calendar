@@ -1261,19 +1261,6 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Ankara Challenger",
-  "city": "Ankara",
-  "country": "Turkey",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-11-23",
-  "end": "2026-11-29",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "City of Playford Tennis International",
   "city": "City of Playford",
   "country": "Australia",
@@ -1326,8 +1313,21 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Monastir Open II",
-  "city": "Monastir",
+  "name": "O Mili\u0107",
+  "city": "2026 Ankara Challenger",
+  "country": "Turkey",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "P Henning",
+  "city": "2026 Monastir Open II",
   "country": "Tunisia",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
