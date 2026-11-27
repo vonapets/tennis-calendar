@@ -1,13 +1,77 @@
 {
- "checked": "2026-11-27 01:43Z",
+ "checked": "2026-11-27 16:38Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [],
-  "added": [],
-  "removed": []
+  "moved": [
+   {
+    "name": "Anirudh Chandrasekar",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-02..2026-11-08",
+    "now": "2026-11-23..2026-11-29"
+   }
+  ],
+  "added": [
+   {
+    "name": "Federico Zeballos",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "Blake Bayldon",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "Gianluca Cadenasso",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "Mert Naci T\u00fcrker",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-23..2026-11-29"
+   }
+  ],
+  "removed": [
+   {
+    "name": "T Schoolkate",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "D Rinc\u00f3n",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "P Henning",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "City of Playford Tennis International",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "O Mili\u0107",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "was": "2026-11-23..2026-11-29"
+   }
+  ]
  }
 }

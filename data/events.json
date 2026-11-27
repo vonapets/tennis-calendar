@@ -1261,12 +1261,12 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "City of Playford Tennis International",
-  "city": "City of Playford",
-  "country": "Australia",
+  "name": "Anirudh Chandrasekar",
+  "city": "Thijmen Loof",
+  "country": "Turkey",
   "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Hard",
+  "tier": "Challenger 50",
+  "surface": "Hard (i)",
   "draw": 32,
   "start": "2026-11-23",
   "end": "2026-11-29",
@@ -1274,11 +1274,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "D Rinc\u00f3n",
-  "city": "2026 Crete Challenger IV",
-  "country": "Greece",
+  "name": "Blake Bayldon",
+  "city": "Thomas Fancutt",
+  "country": "Japan",
   "tour": "ATP-CH",
-  "tier": "Challenger 50",
+  "tier": "Challenger 75",
   "surface": "Hard",
   "draw": 32,
   "start": "2026-11-23",
@@ -1313,12 +1313,12 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "O Mili\u0107",
-  "city": "2026 Ankara Challenger",
-  "country": "Turkey",
+  "name": "Federico Zeballos",
+  "city": "Marcelo Zormann",
+  "country": "Australia",
   "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard (i)",
+  "tier": "Challenger 75",
+  "surface": "Hard",
   "draw": 32,
   "start": "2026-11-23",
   "end": "2026-11-29",
@@ -1326,8 +1326,8 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "P Henning",
-  "city": "2026 Monastir Open II",
+  "name": "Gianluca Cadenasso",
+  "city": "Jacopo Vasam\u00ec",
   "country": "Tunisia",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
@@ -1339,11 +1339,11 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "T Schoolkate",
-  "city": "2026 Keio Challenger",
-  "country": "Japan",
+  "name": "Mert Naci T\u00fcrker",
+  "city": "Egor Agafonov",
+  "country": "Greece",
   "tour": "ATP-CH",
-  "tier": "Challenger 75",
+  "tier": "Challenger 50",
   "surface": "Hard",
   "draw": 32,
   "start": "2026-11-23",
