@@ -1,41 +1,33 @@
 {
- "checked": "2026-11-27 16:38Z",
+ "checked": "2026-11-28 01:26Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [
-   {
-    "name": "Anirudh Chandrasekar",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-11-02..2026-11-08",
-    "now": "2026-11-23..2026-11-29"
-   }
-  ],
+  "moved": [],
   "added": [
    {
-    "name": "Federico Zeballos",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-11-23..2026-11-29"
-   },
-   {
-    "name": "Blake Bayldon",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "now": "2026-11-23..2026-11-29"
-   },
-   {
-    "name": "Gianluca Cadenasso",
+    "name": "Jacopo Vasam\u00ec",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-11-23..2026-11-29"
    },
    {
-    "name": "Mert Naci T\u00fcrker",
+    "name": "Empire Trnava Open",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-11-30..2026-12-06"
+   },
+   {
+    "name": "Empire Trnava Open II",
+    "tour": "ATP-CH",
+    "tier": "Challenger 50",
+    "now": "2026-12-07..2026-12-13"
+   },
+   {
+    "name": "Jeevan Nedunchezhiyan",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-11-23..2026-11-29"
@@ -43,31 +35,25 @@
   ],
   "removed": [
    {
-    "name": "T Schoolkate",
-    "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-23..2026-11-29"
-   },
-   {
-    "name": "D Rinc\u00f3n",
+    "name": "Gianluca Cadenasso",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-11-23..2026-11-29"
    },
    {
-    "name": "P Henning",
+    "name": "Trnava Challenger",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
-    "was": "2026-11-23..2026-11-29"
+    "was": "2026-11-30..2026-12-06"
    },
    {
-    "name": "City of Playford Tennis International",
+    "name": "Trnava Challenger II",
     "tour": "ATP-CH",
-    "tier": "Challenger 75",
-    "was": "2026-11-23..2026-11-29"
+    "tier": "Challenger 50",
+    "was": "2026-12-07..2026-12-13"
    },
    {
-    "name": "O Mili\u0107",
+    "name": "El Salvador Open",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-11-23..2026-11-29"
