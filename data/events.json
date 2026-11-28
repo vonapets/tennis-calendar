@@ -1261,32 +1261,6 @@
   "src": "wikipedia:2026 ATP Tour"
  },
  {
-  "name": "Anirudh Chandrasekar",
-  "city": "Thijmen Loof",
-  "country": "Turkey",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard (i)",
-  "draw": 32,
-  "start": "2026-11-23",
-  "end": "2026-11-29",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
-  "name": "Blake Bayldon",
-  "city": "Thomas Fancutt",
-  "country": "Japan",
-  "tour": "ATP-CH",
-  "tier": "Challenger 75",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-23",
-  "end": "2026-11-29",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Engie Open Florian\u00f3polis",
   "city": "Florian\u00f3polis",
   "country": "Brazil",
@@ -1313,19 +1287,6 @@
   "src": "wikipedia:2026 ATP Challenger Tour"
  },
  {
-  "name": "Jacopo Vasam\u00ec",
-  "city": "Sergey Fomin (tennis)",
-  "country": "Tunisia",
-  "tour": "ATP-CH",
-  "tier": "Challenger 50",
-  "surface": "Hard",
-  "draw": 32,
-  "start": "2026-11-23",
-  "end": "2026-11-29",
-  "precision": "week",
-  "src": "wikipedia:2026 ATP Challenger Tour"
- },
- {
   "name": "Jeevan Nedunchezhiyan",
   "city": "Alberto Barroso Campos",
   "country": "El Salvador",
@@ -1344,6 +1305,45 @@
   "country": "Greece",
   "tour": "ATP-CH",
   "tier": "Challenger 50",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Oleksii Krutykh",
+  "city": "Gianluca Cadenasso",
+  "country": "Tunisia",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard",
+  "draw": 32,
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Szymon Kielan",
+  "city": "Anirudh Chandrasekar",
+  "country": "Turkey",
+  "tour": "ATP-CH",
+  "tier": "Challenger 50",
+  "surface": "Hard (i)",
+  "draw": 32,
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "precision": "week",
+  "src": "wikipedia:2026 ATP Challenger Tour"
+ },
+ {
+  "name": "Thomas Fancutt",
+  "city": "Calum Puttergill",
+  "country": "Japan",
+  "tour": "ATP-CH",
+  "tier": "Challenger 75",
   "surface": "Hard",
   "draw": 32,
   "start": "2026-11-23",

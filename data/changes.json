@@ -1,33 +1,35 @@
 {
- "checked": "2026-11-28 01:26Z",
+ "checked": "2026-11-28 15:29Z",
  "sources": {
   "wta": "ok - 34 tournaments",
   "atp": "ok - 16 tournaments",
   "challenger": "ok - 75 tournaments"
  },
  "changes": {
-  "moved": [],
+  "moved": [
+   {
+    "name": "Anirudh Chandrasekar",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "was": "2026-11-23..2026-11-29",
+    "now": "2026-11-02..2026-11-08"
+   }
+  ],
   "added": [
    {
-    "name": "Jacopo Vasam\u00ec",
+    "name": "Thomas Fancutt",
+    "tour": "ATP-CH",
+    "tier": "Challenger 75",
+    "now": "2026-11-23..2026-11-29"
+   },
+   {
+    "name": "Szymon Kielan",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-11-23..2026-11-29"
    },
    {
-    "name": "Empire Trnava Open",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-11-30..2026-12-06"
-   },
-   {
-    "name": "Empire Trnava Open II",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "now": "2026-12-07..2026-12-13"
-   },
-   {
-    "name": "Jeevan Nedunchezhiyan",
+    "name": "Oleksii Krutykh",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "now": "2026-11-23..2026-11-29"
@@ -35,25 +37,13 @@
   ],
   "removed": [
    {
-    "name": "Gianluca Cadenasso",
+    "name": "Blake Bayldon",
     "tour": "ATP-CH",
-    "tier": "Challenger 50",
+    "tier": "Challenger 75",
     "was": "2026-11-23..2026-11-29"
    },
    {
-    "name": "Trnava Challenger",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-11-30..2026-12-06"
-   },
-   {
-    "name": "Trnava Challenger II",
-    "tour": "ATP-CH",
-    "tier": "Challenger 50",
-    "was": "2026-12-07..2026-12-13"
-   },
-   {
-    "name": "El Salvador Open",
+    "name": "Jacopo Vasam\u00ec",
     "tour": "ATP-CH",
     "tier": "Challenger 50",
     "was": "2026-11-23..2026-11-29"
